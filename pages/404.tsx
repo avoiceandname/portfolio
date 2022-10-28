@@ -1,19 +1,18 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import { NextSeo } from "next-seo";
+import Header from "../src/Header";
+import Footer from "../src/Footer";
 
 export default function Contact() {
   return (
     <div className="text-white bg-black">
-      <NextSeo
+      {/* <NextSeo
         title="404: nine4"
         description="404 Page for all our missing pages"
         canonical="https://nine4-1.vercel.app/404"
         openGraph={{
           url: "https://nine4-1.vercel.app/404",
         }}
-      />
+      /> */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
