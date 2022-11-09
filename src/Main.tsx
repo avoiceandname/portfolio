@@ -1,379 +1,106 @@
-// import CountUp from "react-countup";
+
 // import VisibilitySensor from "react-visibility-sensor";
+
+import { Vector3 } from 'three'
+import { extend } from '@react-three/fiber'
+import { shaderMaterial } from '@react-three/drei'
 
 export default function Main() {
   return (
-    <section className="text-black body-font lg:pt-20">
+    <section className="text-black body-font">
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-28 mx-auto">
+
+        </div>
+      </section>
+
       <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-        <div className="flex flex-col w-full mb-2 text-left md:text-center ">
+        <div className="flex flex-col w-full mb-2 text-left">
           <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
             <span>Kat Miller</span>
-            <br className="hidden lg:block"></br>
-            is a product designer who specializes in unexpected joy.
           </h1>
-          <br></br>
-          <p className="mx-auto  text-xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
-            nine4 is a free to use template website for websites made with{" "}
-            <a href="https://nextjs.org/" className="underline">
-              Next.js
-            </a>{" "}
-            and styled with Tailwind CSS
+          <p className="text-xl font-normal leading-normal text-white dark:text-white lg:w-2/3">
+            is a Techstars-backed founder and product designer passionate about shipping products for devices — from mobile to 10-foot experiences. Her work is powered by the belief that design can improve lives through <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500">unexpected joy</span>.
           </p>
         </div>
       </div>
-      <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-        <img
-          className="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
-          alt="hero"
-          src="./images/placeholder.png"
-        ></img>
-      </div>
+
+
       <section className="text-gray-600 body-font">
-        <section className="text-gray-600 body-font">
-          <div className="container px-5 py-10 mx-auto">
-            <div className="flex flex-wrap -m-4 text-center">
-              <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-5xl text-3xl text-white">
-                  {/* <CountUp end={940} redraw={true}>
-                    {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
-                        <span ref={countUpRef} />
-                      </VisibilitySensor>
-                    )}
-                  </CountUp> */}
-                </h2>
-                <p className="leading-relaxed">Users</p>
-              </div>
-              <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-5xl text-3xl text-white">
-                  {/* <CountUp end={740} redraw={true}>
-                    {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
-                        <span ref={countUpRef} />
-                      </VisibilitySensor>
-                    )}
-                  </CountUp> */}
-                </h2>
-                <p className="leading-relaxed">Subscribes</p>
-              </div>
-              <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-4xl text-3xl text-white">
-                  {/* <CountUp end={315} redraw={true}>
-                    {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
-                        <span ref={countUpRef} />
-                      </VisibilitySensor>
-                    )}
-                  </CountUp> */}
-                </h2>
-                <p className="leading-relaxed">Downloads</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img
-              alt="feature"
-              className="object-cover object-center h-full w-full"
-              src="./images/placeholder.png"
-            ></img>
-          </div>
-          <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="flex-grow">
-                <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Free
-                </h2>
-                <p className="leading-relaxed text-lg">
-                  All of our templates are 100% free forever.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="flex-grow">
-                <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Responsive
-                </h2>
-                <p className="leading-relaxed text-lg">
-                  All our templates come with full responsiveness straight out
-                  of the box.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="flex-grow">
-                <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  SEO Friendly
-                </h2>
-                <p className="leading-relaxed text-lg">
-                  Our templates have the best SEO practices ensuring you get to
-                  the top.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="flex-grow">
-                <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Fast
-                </h2>
-                <p className="leading-relaxed text-lg">
-                  The fastest websites you can get.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col mb-10 lg:items-start items-center">
-              <div className="flex-grow">
-                <h2 className="text-white text-2xl title-font font-medium mb-3">
-                  Google Analytics Supported
-                </h2>
-                <p className="leading-relaxed text-lg">
-                  All our templates come with full support for Google Analytics.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 mx-auto">
-          <div className="text-center mb-20">
-            <h2 className="sm:text-5xl font-medium title-font text-white mb-4">
-              Our Team
-            </h2>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
-              Here is our company
-            </p>
-            <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-white inline-flex"></div>
-            </div>
-            <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 pt-16 mx-auto">
+          <div className="text-left">
+
+            <div className="container pt-4 pb-16 mx-auto">
               <div className="flex flex-wrap -m-4">
                 <div className="p-4 lg:w-1/4 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="./images/placeholder.png"
-                    ></img>
+                  <div className="h-full flex flex-col items-left text-left">
+
                     <div className="w-full">
-                      <h2 className="title-font font-medium text-lg text-white">
-                        Chris
+                      <h2 className="title-font font-medium text-lg text-white pb-2.5">
+                        Design Director
                       </h2>
-                      <h3 className="text-gray-500 mb-3">Web Developer</h3>
-                      <p className="mb-4">
-                        Chris is part of our front-end team providing amazing
-                        websites.
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-red-600 to-orange-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-gray-500 text-md">4G Clinical</h3>
+
+                      <p className="text-sm">
+                        2022-2022
                       </p>
-                      <span className="inline-flex">
-                        <a className="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-white">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                        </a>
-                      </span>
                     </div>
                   </div>
                 </div>
                 <div className="p-4 lg:w-1/4 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="./images/placeholder.png"
-                    ></img>
+                  <div className="h-full flex flex-col items-left text-left">
+
                     <div className="w-full">
-                      <h2 className="title-font font-medium text-lg text-white">
-                        Chris
+                      <h2 className="title-font font-medium text-lg text-white pb-2.5">
+                        Partner, Design
                       </h2>
-                      <h3 className="text-gray-500 mb-3">Web Developer</h3>
-                      <p className="mb-4">
-                        Chris is part of our front-end team providing amazing
-                        websites.
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-gray-500 text-md">Tiny Creative</h3>
+                      <p className="text-sm">
+                        2015-2021
                       </p>
-                      <span className="inline-flex">
-                        <a className="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                        </a>
-                      </span>
+
                     </div>
                   </div>
                 </div>
                 <div className="p-4 lg:w-1/4 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="./images/placeholder.png"
-                    ></img>
+                  <div className="h-full flex flex-col items-left text-left">
+
                     <div className="w-full">
-                      <h2 className="title-font font-medium text-lg text-white">
-                        Chris
+                      <h2 className="title-font font-medium text-lg text-white pb-2.5">
+                        Co-Founder, Design
                       </h2>
-                      <h3 className="text-gray-500 mb-3">Web Developer</h3>
-                      <p className="mb-4">
-                        Chris is part of our front-end team providing amazing
-                        websites.
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-emerald-500 to-sky-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-gray-500 text-md">Stand In</h3>
+                      <p className="text-sm">
+                        2013-2015
                       </p>
-                      <span className="inline-flex">
-                        <a className="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                        </a>
-                      </span>
+
                     </div>
                   </div>
                 </div>
                 <div className="p-4 lg:w-1/4 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="./images/placeholder.png"
-                    ></img>
+                  <div className="h-full flex flex-col items-left text-left">
+
                     <div className="w-full">
-                      <h2 className="title-font font-medium text-lg text-white">
-                        Chris
+                      <h2 className="title-font font-medium text-lg text-white pb-2.5">
+                        Art Director, UX / UI
                       </h2>
-                      <h3 className="text-gray-500 mb-3">Web Developer</h3>
-                      <p className="mb-4">
-                        Chris is part of our front-end team providing amazing
-                        websites.
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-sky-500 to-violet-800 inline-flex"></div>
+                      </div>
+                      <h3 className="text-gray-500 text-md">Citizen</h3>
+                      <p className="text-sm">
+                        2011-2013
                       </p>
-                      <span className="inline-flex">
-                        <a className="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </a>
-                        <a className="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>
-                        </a>
-                      </span>
+
                     </div>
                   </div>
                 </div>
@@ -382,6 +109,279 @@ export default function Main() {
           </div>
         </div>
       </section>
-    </section>
+
+      <section className="bg-red-600">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-orange-500">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-amber-400">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-emerald-500">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-sky-400">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-violet-900">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Case Studies
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font bg-violet-800">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+
+            <h1 className="mb-16 text-7xl font-bold text-white lg:text-7xl md:text-1xl w-1/2">
+              <span>Prototype on devices in real time.</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-white inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-white">
+              Kinetic
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white">
+              UX, UI, Strategy
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font bg-violet-700">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>Help other makers by sharing what you’ve Made.</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Made
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Mobile UX, UI
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font bg-violet-500">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>An empathetic chatbot built for families in crisis.</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Foxbox
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              UX, Service Design
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font bg-violet-400">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>Better, Together. Faster, Together.</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              4G Clinical
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Design Direction, Brand Design
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-sky-400">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-emerald-600">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-amber-400">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-orange-500">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+      <section className="bg-red-600">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+
+
+      <section className="text-white body-font bg-gray-900">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Recommendations
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-4xl md:text-2xl font-bold py-6">
+                "Kat <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-400">brings order to the chaos</span> that characterizes all early project development when one must <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-400">convert ideas</span> into a plan of action."
+              </p>
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-gray-500">
+                Kat is a high-impact leader who moves effortlessly from strategy to implementation. She combines a product designer's sense of how aesthetics should serve function with a product owner's analytical rigor. She brings order to the chaos that characterizes all early project development when one must convert ideas into a plan of action. A common thread in all Kat's endeavors is iterative research -- she tests hypotheses with her suspected audiences, learns their needs, trims away anything not needed for the initial personae and then retests. But none of this compares to Kat's character and strength. She meets even the most enormous challenges with creativity and optimism. She sets an example not just for her teammates but for the people, like me, who have known her over the years. You build great teams around talent but you build great companies around character.
+              </p>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white font-bold pt-8">
+                  Antony Falco
+                </p>
+              </div>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white pb-10">
+                  CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-4xl md:text-2xl font-bold py-6">
+                "...truly the <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-emerald-500">most strategic</span> and <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-400">systems-focused</span> designer I've ever worked with."
+              </p>
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-gray-500">
+                I sincerely hope I get to partner with Kat again in the future. Kat is such an incredible human and such a great leader for any team. She is so versatile, collaborative, intuitive, strategic, and thoughtful.
+
+                I've worked with Kat in several areas from employee engagement and company communications to investor relations and strategic storytelling to overall design systems and UX. She approached each project in the same holistic way and ensured the right people were involved to get to the best solution. She is detail oriented, solutions-focused, passionate, and always comes to the table with a positive attitude.
+
+                She is truly the most strategic and systems-focused designer I've ever worked with. Not only is she a very talented and creative designer, but the way she weaves in design thinking, design research, and her ability to bring teams together to solve a problem, she acts as an incredible "glue" for any org.</p>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white font-bold pt-8">
+                  Lisa Hovey
+                </p>
+              </div>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white pb-10">
+                  Chief of Staff
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-4xl md:text-2xl font-bold py-6">
+                "Kat is a <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-cyan-500">joy</span> to work with!"
+              </p>
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-gray-500">
+                Kat's visual design prowess and passion for implementing design as a practice really up-leveled the couple of projects that we worked on together. However, what stuck out to me most is her ability to listen, ask the right questions, and build a case for better design decisions with her stakeholders. In all of my interactions with Kat, I left those conversations feeling like the work product or process was significantly improved. Kat is well-qualified to lead a design practice and be a trusted advisor to senior leaders. She's a joy to work with!
+              </p>
+              <div className="flex justify-left">
+                <p className="justify-left sm:justify-start text-white font-bold pt-8">
+                  Eric Chen
+                </p>
+              </div>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white pb-10">
+                  Director of People Ops
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-4xl md:text-2xl font-bold py-6">
+                "Kat is a <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-800">great designer, art director, and mentor.</span>"
+              </p>
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-gray-500">
+                Kat Miller is a great designer, art director, and mentor. I’ve worked with her for several years in both an agency setting and as a freelancer. I’ve had the pleasure of working with her on several freelance projects, our most recent being building the branding and website designs for Foxbox.    One of Kat’s many strengths is being able to articulate a clear design vision while seamlessly working with individual contributors to bring that vision to life. On any large design project, it’s important to have a design leader who understands and communicates the needs and priorities of a project while also creating an environment that encourages collaboration and feedback. Kat is that person and I think any organization can be confident in her abilities as a creative director and manager.   </p>
+              <div className="flex justify-left">
+                <p className="justify-left sm:justify-start text-white font-bold pt-8">
+                  Becca Charlier-Matthews
+                </p>
+              </div>
+              <div className="flex mt-px justify-left">
+                <p className="justify-left sm:justify-start text-white pb-10">
+                  Designer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-10 mx-auto">
+          <div className="flex mt-px mb-2 justify-left">
+            <span className="justify-left sm:justify-start">
+              💞    <strong class="underline decoration-1 decoration-line underline-offset-6 decoration-red-100 hover:decoration-blue-400"><a href="https://facebook.com/">Read more recommendations</a></strong> on LinkedIn.
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-sky-400">
+        <div className="container px-5 py-px mx-auto">
+        </div>
+      </section>
+      <section className="bg-emerald-600">
+        <div className="container px-5 py-px mx-auto">
+        </div>
+      </section>
+      <section className="bg-amber-400">
+        <div className="container px-5 py-px mx-auto">
+        </div>
+      </section>
+      <section className="bg-orange-500">
+        <div className="container px-5 py-px mx-auto">
+        </div>
+      </section>
+      <section className="bg-red-600">
+        <div className="container px-5 py-0.5 mx-auto">
+        </div>
+      </section>
+
+
+    </section >
   );
 }

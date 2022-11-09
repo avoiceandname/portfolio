@@ -3,8 +3,9 @@ export default function Footer() {
     <footer className="text-white body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center" href="/">
-          <span className="ml-3 text-xl">NINE4</span>
+          <span className="ml-3 text-xl">KM</span>
         </a>
+
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a href="https://facebook.com/">
             <svg
@@ -63,6 +64,15 @@ export default function Footer() {
           </a>
         </span>
       </div>
+      <section className="text-white body-font text-xs bg-gray-900">
+        <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+
+          <p className="text-left lg:text-xs md:text-xs">
+            This is a long sentence describing what this site was built with and how it was built.
+          </p>
+        </div>
+
+      </section>
     </footer>
   );
 }
