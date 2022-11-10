@@ -5,11 +5,12 @@ import { Vector3 } from 'three'
 import { extend } from '@react-three/fiber'
 import { shaderMaterial } from '@react-three/drei'
 
+
 export default function Main() {
   return (
     <section className="text-black body-font">
       <section className="text-white body-font bg-black">
-        <div className="container px-5 py-28 mx-auto">
+        <div className="container py-28 mx-auto">
 
         </div>
       </section>

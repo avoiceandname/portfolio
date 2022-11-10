@@ -220,7 +220,8 @@ export default function Contact() {
                                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">—quickly and easily.</span>
                             </p>
                             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
-                                So we built one.                                </p>
+                                So we built one.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -247,7 +248,20 @@ export default function Contact() {
 
                                         <div className="w-full">
                                             <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                                                1
+                                                <div className="ml-3" href="https://twitter.com/">
+                                                    <svg
+                                                        fill="currentColor"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        className="w-5 h-5"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                                    </svg>
+                                                </div>
+
+
                                             </h2>
                                             <div className="flex mt-px mb-2 justify-left">
                                                 <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -255,14 +269,11 @@ export default function Contact() {
                                             <h3 className="text-white text-xl font-bold">Experience Strategy & Vision: </h3>
                                             <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                                                 Drove our product's short-term feature development and long-term vision by creatingour roadmap and evolving feature releases.
-
                                             </p>
-                                            <p>Created and developed our brands. </p>
-                                            <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
-
-                                                ✅ Beautiful UIs and motion.
-                                                <br></br>❌ Unrealistic to build and ship.
+                                            <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                                                Created and developed our brands.
                                             </p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +282,7 @@ export default function Contact() {
 
                                         <div className="w-full">
                                             <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                                                2
+                                                *
                                             </h2>
                                             <div className="flex mt-px mb-2 justify-left">
                                                 <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -280,13 +291,11 @@ export default function Contact() {
                                             <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                                                 Interviewed 100+ designers and product teams to understand their needs and, balanced with our vision, transformed their insights into product requirements.
 
-                                                <br></br> Increased customer engagement and loyalty by building practical documentation and sample files to unblock issues or offer workflow support.
+                                                <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
+                                                    Increased customer engagement and loyalty by building practical documentation and sample files to unblock issues or offer workflow support.
+                                                </p>
                                             </p>
-                                            <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
 
-                                                ✅ Fast to create & iterate.
-                                                <br></br>❌ Feels unauthentic to testers and negatively impacting the quality of feedback.
-                                            </p>
                                         </div>
                                     </div>
                                 </div>

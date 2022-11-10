@@ -12,9 +12,11 @@
     "@next/font": "^13.0.2",
     "@react-three/drei": "^9.40.0",
     "@react-three/fiber": "^8.9.1",
+    "@react-three/postprocessing": "^2.7.0",
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.137",
     "next": "13.0.0",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "three": "^0.146.0"
