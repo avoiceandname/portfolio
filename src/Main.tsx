@@ -109,7 +109,7 @@ export default function Main() {
         <div className="container px-5 py-0.5 mx-auto"></div>
       </section>
 
-      <section className="text-white body-font bg-violet-900">
+      <section className="text-white body-font bg-red-700">
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
@@ -120,7 +120,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font bg-violet-800">
+      <section className="text-gray-600 body-font bg-red-600">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-left">
             <h1 className="mb-16 text-7xl font-bold text-white lg:text-7xl md:text-1xl w-1/2">
@@ -138,7 +138,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font bg-violet-700">
+      <section className="text-gray-600 body-font bg-orange-500">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-left">
             <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
@@ -156,7 +156,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font bg-violet-500">
+      <section className="text-gray-600 body-font bg-amber-400">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-left">
             <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
@@ -174,7 +174,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font bg-violet-400">
+      <section className="text-gray-600 body-font bg-emerald-500">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-left">
             <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
@@ -185,6 +185,24 @@ export default function Main() {
             </div>
             <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
               4G Clinical
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Design Direction, Brand Design
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-600 body-font bg-sky-500">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>Lego Control Panel</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Personal
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
               Design Direction, Brand Design
