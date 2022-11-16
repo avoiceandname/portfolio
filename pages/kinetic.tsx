@@ -582,7 +582,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font bg-[#ECE5DF]">
+      <section className="text-gray-900 body-font bg-[#ECE5DF]">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-center mx-auto">
             <div className="flex mt-px mx-auto mb-2"></div>
@@ -593,28 +593,36 @@ export default function Contact() {
             />
 
 
-            <h1 className="mb-4 text-7xl font-bold text-white lg:text-7xl md:text-1xl">
+            <h1 className="mb-4 text-6xl font-bold text-gray-900 lg:text-7xl md:text-1xl">
               <span>Kinetic</span>
             </h1>
             <div className="text-center">
-              <p className="sm:justify-start lg:text-2xl md:text-xl text-white mx-auto">
+              <p className="sm:justify-start lg:text-3xl md:text-xl mx-auto">
                 A Mac App for building realistic prototypes and experimenting with
                 real-time UI motion design on devices.
               </p>
             </div>
+            <div className="text-left pt-28">
+              <img
+                src="/images/kinetic-desk-bg-1.png"
+                alt=""
+                className="mx-auto pb-4"
+              />
+            </div>
           </div>
         </div>
       </section>
-
+      {/* 
       <section className="text-white body-font bg-white bg-[url('/images/kinetic-desk-bg-1.png')] bg-[center] bg-[repeat-no]">
         <div className="container px-5 pb-124 mx-auto p-60">
           <div className="text-left">
             <div className="text-left px-5 pt-24">
             </div>
-
+            <div className="text-left bg-white">
+            
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="text-white body-font bg-white">
         <div className="container px-5 pt-24 mx-auto">
@@ -839,7 +847,7 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                Outcomes & Reflection: What we learned after launching Kinetic
+                Outcomes: What we learned after launching Kinetic
               </p>
             </div>
           </div>
@@ -924,17 +932,12 @@ export default function Contact() {
         </div>
       </section>
 
-
-      <section className="text-bl body-font bg-black text-white">
-        <div className="container px-5 pt-12 pb-24 mx-auto">
+      <section className="text-white body-font bg-violet-900">
+        <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-5xl md:text-3xl font-bold py-6">
-                From Sunset
-              </p>
-
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-l md:text-md">
-                Out of our frustrations as product makers, we took a stand and said, "this must be better." For two years, we dedicated our lives to improving how designers created device experiences. We were inspired to make engaging products easy for teams to ship. Ultimately, we shut down Kinetic in 2015. I’ll always feel deep gratitude for Stand In & Kinetic for teaching me to:
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Essential product lessons I learned
               </p>
             </div>
           </div>
@@ -1015,6 +1018,36 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Reflection
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-bl body-font bg-gray-900 text-white">
+        <div className="container px-5 pt-12 pb-24 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl md:text-3xl font-bold py-6">
+                From Sunset
+              </p>
+
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md">
+                Out of our frustrations as product makers, we took a stand and said, "this must be better." For two years, we dedicated our lives to improving how designers created device experiences. We were inspired to make engaging products easy for teams to ship. Ultimately, we shut down Kinetic in 2015. I’ll always feel deep gratitude for Stand In & Kinetic for teaching me to:
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 
       <section className="text-bl body-font bg-white">
         <div className="container px-5 pt-12 pb-24 mx-auto">
