@@ -183,7 +183,7 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        1
+                        *
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -191,17 +191,19 @@ export default function Contact() {
                       <h3 className="text-white text-xl font-bold">
                         Video Playback
                       </h3>
+                      <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
+                        ✅ Beautiful UIs and motion.
+                      </p>
+                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4">
+                        ❌ Unrealistic motion capabilities.
+                      </p>
+
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                         Build an aspirational product experience in After
                         Effects and watch a video. (Often, the shipped product
                         couldn't replicate the custom motion captured in AE.)
                       </p>
-                      <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
-                        ✅ Beautiful UIs and motion.
-                      </p>
-                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4">
-                        ❌ Unrealistic to build and ship.
-                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -209,7 +211,7 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        2
+                        *
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -217,12 +219,6 @@ export default function Contact() {
                       <h3 className="text-white text-xl font-bold">
                         Low-fi &amp; Static
                       </h3>
-                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Create a low-fidelity prototype that transitioned from
-                        screen to screen with static animations. This option
-                        could be anything from a complete UI to hand-drawn
-                        sketches.
-                      </p>
                       <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
                         ✅ Fast to create &amp; iterate.
                       </p>
@@ -230,6 +226,13 @@ export default function Contact() {
                         ❌ Feels unauthentic to testers and negatively impacting
                         the quality of feedback.
                       </p>
+                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                        Create a low-fidelity prototype that transitioned from
+                        screen to screen with static animations. This option
+                        could be anything from a complete UI to hand-drawn
+                        sketches.
+                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -237,7 +240,7 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        3
+                        *
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -245,16 +248,17 @@ export default function Contact() {
                       <h3 className="text-white text-xl font-bold">
                         Engineering Partner
                       </h3>
-                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Work with an engineering partner to build a prototype in
-                        code.
-                      </p>
                       <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
                         ✅ Feels the closest to a shipped product.
                       </p>
                       <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4 pb-24">
                         ❌ High time and financial cost to create.
                       </p>
+                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                        Work with an engineering partner to build a prototype in
+                        code.
+                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -287,7 +291,7 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                My Roles:
+                My roles at Kinetic:
               </p>
             </div>
           </div>
@@ -305,9 +309,9 @@ export default function Contact() {
                         <div className="ml-3">
                           <svg
                             fill="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             className="w-5 h-5"
                             viewBox="0 0 24 24"
                           >
@@ -339,9 +343,9 @@ export default function Contact() {
                         <div className="ml-3">
                           <svg
                             fill="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             className="w-5 h-5"
                             viewBox="0 0 24 24"
                           >
@@ -375,9 +379,9 @@ export default function Contact() {
                         <div className="ml-3">
                           <svg
                             fill="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             className="w-5 h-5"
                             viewBox="0 0 24 24"
                           >
@@ -429,7 +433,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className="text-white body-font bg-zinc-100">
+      {/* <section className="text-white body-font bg-zinc-100">
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-4xl md:text-2xl font-bold py-6">
@@ -445,13 +449,13 @@ export default function Contact() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="text-white body-font bg-violet-900">
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                What we learned after launching the private beta:
+                What we learned after launching the Photoshop plugin:
               </p>
             </div>
           </div>
@@ -568,37 +572,73 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
-                We{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">
-                  embraced our failures
+                Techstars gave us the time and resources to take a deeper look at the problems facing our customers which led to <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">
+                  Kinetic.
                 </span>{" "}
-                , learned from our beta customers, &amp; adapted.
+
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="text-white body-font bg-white">
-        <div className="container px-5 pt-24 mx-auto">
-          <div className="text-left">
-            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-6xl md:text-4xl font-bold py-6">
-              Kinetic
-            </p>
-            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-2xl md:text-xl font-bold pb-24">
-              A Mac App for building realistic prototypes and experimenting with
-              real-time UI motion design on devices.
-            </p>
-            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-              I love this video of Kinetic and a paired device working together
-              seamlessly in real-time. As the motion is created in the Mac App,
-              the design is loaded automatically onto the device. The movement
-              is triggered, allowing for rapid design refinements based on how
-              the UI moves on the iPhone.
-            </p>
+      <section className="text-gray-900 body-font bg-[#ECE5DF]">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-center mx-auto">
+            <div className="flex mt-px mx-auto mb-2"></div>
+            <img
+              src="/images/kinetic-icon-sm.png"
+              alt=""
+              className="mx-auto pb-4"
+            />
+
+
+            <h1 className="mb-4 text-6xl font-bold text-gray-900 lg:text-7xl md:text-1xl">
+              <span>Kinetic</span>
+            </h1>
+            <div className="text-center">
+              <p className="sm:justify-start lg:text-3xl md:text-xl mx-auto">
+                A Mac App for building realistic prototypes and experimenting with
+                real-time UI motion design on devices.
+              </p>
+            </div>
+            <div className="text-left pt-28">
+              <img
+                src="/images/kinetic-desk-bg-1.png"
+                alt=""
+                className="mx-auto pb-4"
+              />
+            </div>
           </div>
         </div>
       </section>
+      {/* 
+      <section className="text-white body-font bg-white bg-[url('/images/kinetic-desk-bg-1.png')] bg-[center] bg-[repeat-no]">
+        <div className="container px-5 pb-124 mx-auto p-60">
+          <div className="text-left">
+            <div className="text-left px-5 pt-24">
+            </div>
+            <div className="text-left bg-white">
+            
+          </div>
+        </div>
+      </section> */}
+
+      <section className="text-white body-font bg-white">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="text-left">
+            <div className="text-left px-5 pt-24">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
+                I love this video of Kinetic and a paired device working together
+                seamlessly in real-time. As the motion is created in the Mac App,
+                the design is loaded automatically onto the device. The movement
+                is triggered, allowing for rapid design refinements based on how
+                the UI moves on the iPhone.
+              </p></div>
+          </div>
+        </div>
+      </section>
+
 
       <section className="text-black body-font bg-zinc-100">
         <div className="container px-5 py-4 mx-auto">
@@ -756,20 +796,48 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <section className="text-white body-font bg-gray-900">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                First Kinetic Release              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="text-white body-font bg-zinc-100">
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-4xl md:text-2xl font-bold py-6">
-              "Future State" Animation: Designing motion without a timeline
+              This recording shows an early version of Kinetic.
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-              This version of Kinetic shows how we incorporated the feedback and
-              insights we learned from previous versions. We developed a way to
-              establish a "future state" of an element for designers to move on
-              the screen as a way to design motion without a timeline editor.
-              This version of Kinetic also brought the contextual menu concept
-              from Stand In to allow for more granular control over UI elements.
+              Our initial release had motion customization hidden and standardized. We learned that designers wanted more control over the physics and motion specifics. I also reduced the visual styling for the buttons and UI elements to increase hierarchy while minimizing visual noise.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="text-white body-font bg-gray-900">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Last Kinetic Release             </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-white body-font bg-zinc-100">
+        <div className="container px-5 pt-24 mx-auto">
+          <div className="text-left">
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-4xl md:text-2xl font-bold py-6">
+              A later version of Kinetic with an updated UX and UI for improved usability.            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
+              This version of Kinetic shows how we incorporated the feedback and insights we learned from previous versions. I developed a way to establish a "future state" of an element for designers to move on the screen as a way to design motion without a timeline editor.
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
+              We also brought the contextual menu concept from Stand In to allow for more granular control over UI elements.            </p>
           </div>
         </div>
       </section>
@@ -779,7 +847,7 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                Outcomes & Reflection: What we learned after launching Kinetic
+                Outcomes: What we learned after launching Kinetic
               </p>
             </div>
           </div>
@@ -863,22 +931,134 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className="text-white body-font bg-white">
+
+      <section className="text-white body-font bg-violet-900">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Essential product lessons I learned
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-violet-800">
+        <div className="container px-5 pt-16 mx-auto">
+          <div className="text-center">
+            <div className="container pt-4 pb-16 mx-auto">
+              <div className="flex flex-wrap -m-4">
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full flex flex-col items-left text-left">
+                    <div className="w-full">
+                      <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
+                        *
+                      </h2>
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-white text-xl font-bold">
+                        Talk to your customers every day
+                      </h3>
+                      <p className="text-xl italic">
+                        Designers, learn to love customer support!
+                      </p>
+                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                        While I learned a lot and expanded my skillset with each of the roles I took on, listening to our customers was where I could uncover critical challenges they were facing with our product. I realized that your angriest customers are often your biggest advocates once you validate their feelings and respond to their feedback.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full flex flex-col items-left text-left">
+                    <div className="w-full">
+                      <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
+                        *
+                      </h2>
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-white text-xl font-bold">
+                        Curiosity is key
+                      </h3>
+                      <p className="text-xl italic">
+                        Develop resilance &amp; grit from change
+                      </p>
+                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                        Its common to feel stuck and unsure of what to do next in rapid product cycles. I learned how important my natural curiosity was to our momentum. To capture lessons from the day I'd write the answers to two questions before I logged off. First, "what unexpected lessons or events happened to me today?" and second, "How can tomorrow be improved by what today has taught me?"                   </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full flex flex-col items-left text-left">
+                    <div className="w-full">
+                      <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
+                        *
+                      </h2>
+                      <div className="flex mt-px mb-2 justify-left">
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+                      </div>
+                      <h3 className="text-white text-xl font-bold">
+                        Be fearless and ship
+                      </h3>
+                      <p className="text-xl italic">
+                        Learn to be comfortable with feeling exposed
+                      </p>
+                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                        Designers find comfort in research. We can test our assumptions and make changes by learning early and often. There are real-world experiences and inputs that you can't test for during the research phase—even with incredible prototypes. The best customer insights only come after you've shipped a product and dare to listen to feedback.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 py-4 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+                Reflection
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-bl body-font bg-gray-900 text-white">
         <div className="container px-5 pt-12 pb-24 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-5xl md:text-3xl font-bold py-6">
-                Photoshop was the leading design software and dominated the
-                space.
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl md:text-3xl font-bold py-6">
+                From Sunset
+              </p>
+
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md">
+                Out of our frustrations as product makers, we took a stand and said, "this must be better." For two years, we dedicated our lives to improving how designers created device experiences. We were inspired to make engaging products easy for teams to ship. Ultimately, we shut down Kinetic in 2015. I’ll always feel deep gratitude for Stand In & Kinetic for teaching me to:
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section className="text-bl body-font bg-white">
+        <div className="container px-5 pt-12 pb-24 mx-auto">
+          <div className="text-left">
+            <div className="text-left">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-5xl md:text-3xl font-bold py-6 ">
+                to Sunrise
               </p>
 
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-l md:text-md">
-                Elon Musk announced the Hyperloop, Facebook &amp; Twitter went
-                public, Edward Snowden's leaked documents came out, iOS 7 was
-                launched as the first iOS update post-Steve Jobs, &amp; who
-                could forget the XBOX One?
-              </p>
-              <img src="/images/sunset.jpg" alt="" className="mx-auto pb-4" />
+                My journey with Kinetic and Stand In ultimately led me to the kind of design that connects deeply with my personality, skills, and valuesearly-stage product design. After we shut Kinetic down, I spent the next 5 years helping other early-stage founders with end-to-end product design          </p>
             </div>
           </div>
         </div>

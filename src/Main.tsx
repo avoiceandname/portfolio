@@ -1,29 +1,29 @@
 // import VisibilitySensor from "react-visibility-sensor";
+import { Gradient } from "/Gradient.js";
 
 export default function Main() {
   return (
     <section className="text-black body-font">
       <section className="text-white body-font bg-black">
         <div className="container py-28 mx-auto"></div>
-      </section>
-
-      <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-        <div className="flex flex-col w-full mb-2 text-left">
-          <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
-            <span>Kat Miller</span>
-          </h1>
-          <p className="text-xl font-normal leading-normal text-white dark:text-white lg:w-2/3">
-            is a Techstars-backed founder and product designer passionate about
-            shipping products for devices — from mobile to 10-foot experiences.
-            Her work is powered by the belief that design can improve lives
-            through{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500">
-              unexpected joy
-            </span>
-            .
-          </p>
+        <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
+          <div className="flex flex-col w-full mb-2 text-left">
+            <h1 className="mb-2 text-6xl font-bold tracking-tighter text-white lg:text-8xl md:text-7xl">
+              <span>Kat Miller</span>
+            </h1>
+            <p className="text-xl font-normal leading-normal text-white dark:text-white lg:w-2/3">
+              is a Techstars-backed founder and designer passionate about
+              shipping products for devices — from mobile to 10-foot
+              experiences. Her work is powered by the belief that design can
+              improve lives through{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-orange-500">
+                unexpected joy
+              </span>
+              .
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 pt-16 mx-auto">
@@ -93,19 +93,19 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="bg-red-600">
+      <section className="bg-Violet-900">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </section>
-      <section className="bg-orange-500">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </section>
-      <section className="bg-amber-400">
+      <section className="bg-sky-400">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </section>
       <section className="bg-emerald-500">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </section>
-      <section className="bg-sky-400">
+      <section className="bg-amber-400">
+        <div className="container px-5 py-0.5 mx-auto"></div>
+      </section>
+      <section className="bg-orange-500">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </section>
 
@@ -206,6 +206,44 @@ export default function Main() {
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
               Design Direction, Brand Design
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font bg-sky-500">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>LEGO UI project</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Personal
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              UX, UI, 3D, physical prototyping
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font bg-sky-500">
+        <div className="container px-5 py-28 mx-auto">
+          <div className="text-left">
+            <h1 className="mb-16 text-7xl font-bold text-black lg:text-7xl md:text-1xl w-1/2">
+              <span>LEGO UI project</span>
+            </h1>
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="w-9 h-0.5 rounded-full bg-black inline-flex"></div>
+            </div>
+            <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              Personal
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black">
+              UX, UI, 3D, physical prototyping
             </p>
           </div>
         </div>
