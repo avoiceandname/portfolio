@@ -379,7 +379,7 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                My roles at Kinetic:
+                My roles at Kinetic
               </p>
             </div>
           </div>
