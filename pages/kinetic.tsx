@@ -10,7 +10,41 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <section className="text-gray-600 body-font bg-violet-900">
+
+      <section className="text-white body-font bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-violet-900 via-black to-black">
+        <div className="container px-5 mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div className="container px-5 py-28 mx-auto">
+            <div className="text-left mx-auto">
+              <img
+                src="/images/kinetic-small-logo.png"
+                alt=""
+                className=" w-12 self-start pb-4"
+              />
+              <p className="text-left font-bold leading-relaxed text-white">
+                Kinetic
+              </p>
+              <p className="text-left leading-relaxed text-white">
+                UX, UI, Strategy
+              </p>
+              <div className="w-9 h-0.5 rounded-full bg-white inline-flex"></div>
+
+              <h1 className="mb-16 text-7xl pt-12 font-bold text-white lg:text-7xl md:text-1xl">
+                <span>Prototype on devices in real time.</span>
+              </h1>
+              <div className="text-left">
+                <p className="sm:justify-start text-white mx-auto">
+                  A case study in learning and adapting while creating a
+                  prototyping platform to help companies design, build, and ship
+                  device experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="text-left"></div>
+        </div>
+      </section>
+
+      {/* <section className="text-gray-600 body-font bg-violet-900">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-center mx-auto">
             <div className="flex mt-px mx-auto mb-2"></div>
@@ -39,7 +73,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 pt-16 mx-auto">
@@ -53,7 +87,7 @@ export default function Contact() {
                         Beta Sign Ups
                       </h3>
                       <div className="flex mt-px mb-2 justify-left">
-                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+                        <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex"></div>
                       </div>
 
                       <h2 className="title-font font-medium text-5xl font-bold text-white pb-2.5">
@@ -68,7 +102,7 @@ export default function Contact() {
                       Paying Customers
                     </h3>
                     <div className="flex mt-px mb-2 justify-left">
-                      <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-emerald-500 to-sky-500 inline-flex"></div>
+                      <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
                     </div>
 
                     <div className="w-full">
@@ -82,7 +116,7 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <h3 className="text-gray-500 text-md pb-2.5">Timeline</h3>
                     <div className="flex mt-px mb-2 justify-left">
-                      <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-sky-500 to-violet-800 inline-flex"></div>
+                      <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
                     </div>
 
                     <div className="w-full">
@@ -103,7 +137,7 @@ export default function Contact() {
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
                 The year was{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">
+                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-violet-800 to-purple-500">
                   2013
                 </span>
               </p>
@@ -183,12 +217,39 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <rect
+                            x="2"
+                            y="2"
+                            width="20"
+                            height="20"
+                            rx="2.18"
+                            ry="2.18"
+                          />
+                          <path d="M7 2v20" />
+                          <path d="M17 2v20" />
+                          <path d="M2 12h20" />
+                          <path d="M2 7h5" />
+                          <path d="M2 17h5" />
+                          <path d="M17 17h5" />
+                          <path d="M17 7h5" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
+                      <h3 className="text-white text-2xl font-bold">
                         Video Playback
                       </h3>
                       <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
@@ -203,7 +264,6 @@ export default function Contact() {
                         Effects and watch a video. (Often, the shipped product
                         couldn't replicate the custom motion captured in AE.)
                       </p>
-
                     </div>
                   </div>
                 </div>
@@ -211,28 +271,43 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                          <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                          <path d="M2 2l7.586 7.586" />
+                          <circle cx="11" cy="11" r="2" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
+                      <h3 className="text-white text-2xl font-bold">
                         Low-fi &amp; Static
                       </h3>
                       <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
                         ✅ Fast to create &amp; iterate.
                       </p>
-                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4 pb-24">
+                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4 ">
                         ❌ Feels unauthentic to testers and negatively impacting
                         the quality of feedback.
                       </p>
-                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                      <p className="justify-left text-sm sm:justify-start pt-6 xl:w-3/4 lg:w-3/4">
                         Create a low-fidelity prototype that transitioned from
                         screen to screen with static animations. This option
                         could be anything from a complete UI to hand-drawn
                         sketches.
                       </p>
-
                     </div>
                   </div>
                 </div>
@@ -240,25 +315,38 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M16 18l6-6-6-6" />
+                          <path d="M8 6l-6 6 6 6" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
+                      <h3 className="text-white text-2xl font-bold">
                         Engineering Partner
                       </h3>
                       <p className="justify-left text-sm sm:justify-start text-white pt-8 xl:w-3/4 lg:w-3/4">
                         ✅ Feels the closest to a shipped product.
                       </p>
-                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4 pb-24">
+                      <p className="justify-left text-sm sm:justify-start text-white pt-1 xl:w-3/4 lg:w-3/4">
                         ❌ High time and financial cost to create.
                       </p>
-                      <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                      <p className="justify-left text-sm sm:justify-start xl:w-3/4 lg:w-3/4 pt-8">
                         Work with an engineering partner to build a prototype in
                         code.
                       </p>
-
                     </div>
                   </div>
                 </div>
@@ -275,7 +363,7 @@ export default function Contact() {
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
                 None of those options allowed a designer to build a believable
                 prototype on their own
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-violet-500">
                   —quickly and easily.
                 </span>
               </p>
@@ -306,24 +394,27 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        <div className="ml-3">
-                          <svg
-                            fill="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </div>
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                          <circle cx="12" cy="12" r="3" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
-                        Experience Strategy &amp; Vision:{" "}
+                      <h3 className="text-white text-3xl font-bold">
+                        Experience Strategy <br></br>&amp; Vision{" "}
                       </h3>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                         Drove our product's short-term feature development and
@@ -340,24 +431,33 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        <div className="ml-3">
-                          <svg
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                          <path
+                            d="M7 14.5s0 4 5 4 5-4 5-4"
                             fill="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </div>
+                          />
+                          <path d="M7 14.5s0 4 5 4 5-4 5-4H7z" />
+                          <circle cx="15.5" cy="9.5" r=".75" />
+                          <circle cx="8.5" cy="9.5" r=".75" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
-                        Design Research &amp; Customer Insights:
+                      <h3 className="text-white text-3xl font-bold">
+                        Design Research <br></br>&amp; Customer Insights
                       </h3>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                         Interviewed 100+ designers and product teams to
@@ -376,24 +476,35 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        <div className="ml-3">
-                          <svg
-                            fill="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            className="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                          </svg>
-                        </div>
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="2"
+                            ry="2"
+                          />
+                          <path d="M3 9h18" />
+                          <path d="M9 21V9" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
-                      <h3 className="text-white text-xl font-bold">
-                        Design Execution &amp; Validation:{" "}
+                      <h3 className="text-white text-3xl font-bold">
+                        Design Execution <br></br>&amp; Validation{" "}
                       </h3>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
                         Designed the entire product, from initial concepts to
@@ -470,11 +581,27 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        1
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                          <path d="M2 17l10 5 10-5" />
+                          <path d="M2 12l10 5 10-5" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
                       </div>
+
                       <h3 className="text-white text-xl font-bold">
                         I want my layers the way they are!
                       </h3>
@@ -500,7 +627,24 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        2
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M5 5.5A3.5 3.5 0 018.5 2H12v7H8.5A3.5 3.5 0 015 5.5z" />
+                          <path d="M12 2h3.5a3.5 3.5 0 110 7H12V2z" />
+                          <path d="M12 12.5a3.5 3.5 0 117 0 3.5 3.5 0 11-7 0z" />
+                          <path d="M5 19.5A3.5 3.5 0 018.5 16H12v3.5a3.5 3.5 0 11-7 0z" />
+                          <path d="M5 12.5A3.5 3.5 0 018.5 9H12v7H8.5A3.5 3.5 0 015 12.5z" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -526,7 +670,27 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        3
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M12 2v4" />
+                          <path d="M12 18v4" />
+                          <path d="M4.93 4.93l2.83 2.83" />
+                          <path d="M16.24 16.24l2.83 2.83" />
+                          <path d="M2 12h4" />
+                          <path d="M18 12h4" />
+                          <path d="M4.93 19.07l2.83-2.83" />
+                          <path d="M16.24 7.76l2.83-2.83" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -572,17 +736,18 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
-                Techstars gave us the time and resources to take a deeper look at the problems facing our customers which led to <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500">
+                Techstars gave us the time and resources to take a deeper look
+                at the problems facing our customers which led to{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-violet-300">
                   Kinetic.
                 </span>{" "}
-
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="text-gray-900 body-font bg-[#ECE5DF]">
+      {/* <section className="text-gray-900 body-font bg-[#ECE5DF]">
         <div className="container px-5 py-28 mx-auto">
           <div className="text-center mx-auto">
             <div className="flex mt-px mx-auto mb-2"></div>
@@ -592,14 +757,13 @@ export default function Contact() {
               className="mx-auto pb-4"
             />
 
-
             <h1 className="mb-4 text-6xl font-bold text-gray-900 lg:text-7xl md:text-1xl">
               <span>Kinetic</span>
             </h1>
             <div className="text-center">
               <p className="sm:justify-start lg:text-3xl md:text-xl mx-auto">
-                A Mac App for building realistic prototypes and experimenting with
-                real-time UI motion design on devices.
+                A Mac App for building realistic prototypes and experimenting
+                with real-time UI motion design on devices.
               </p>
             </div>
             <div className="text-left pt-28">
@@ -611,7 +775,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* 
       <section className="text-white body-font bg-white bg-[url('/images/kinetic-desk-bg-1.png')] bg-[center] bg-[repeat-no]">
         <div className="container px-5 pb-124 mx-auto p-60">
@@ -624,21 +788,43 @@ export default function Contact() {
         </div>
       </section> */}
 
-      <section className="text-white body-font bg-white">
-        <div className="container px-5 pt-24 mx-auto">
+      <section className="text-white body-font bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-violet-900 via-black to-black">
+        <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="text-left">
-            <div className="text-left px-5 pt-24">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-                I love this video of Kinetic and a paired device working together
-                seamlessly in real-time. As the motion is created in the Mac App,
-                the design is loaded automatically onto the device. The movement
-                is triggered, allowing for rapid design refinements based on how
-                the UI moves on the iPhone.
-              </p></div>
+            <div className="flex mt-px mb-2 justify-left"></div>
+            <div className="flex mt-px mx-auto mb-2"></div>
+            <img
+              src="/images/kinetic-icon-sm.png"
+              alt=""
+              className="pb-4 w-24"
+            />
+
+            <h1 className="mb-4 justify-left text-4xl font-bold lg:text-6xl md:text-1xl">
+              <span>Kinetic</span>
+            </h1>
+            <div className="text-left">
+              <p className="sm:justify-left lg:text-xl md:text-l mx-auto lg:pr-28">
+                A Mac App for building realistic prototypes and experimenting
+                with real-time UI motion design on devices.
+              </p>
+            </div>
+            <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+              I love this video of Kinetic and a paired device working together
+              seamlessly in real-time—it feels like magic. As the motion is
+              created in the Mac App, the design is loaded automatically onto
+              the device. The movement is triggered from the Mac App, in this
+              instance, allowing for rapid design refinements based on how the
+              UI moves on the iPhone. Kinetic prototypes could be triggered
+              either from the Mac App or the device prototype.
+            </p>
+          </div>
+          <div className="text-left flex">
+            <video autoPlay loop w-full h-full>
+              <source src="/video/kinetic-demo.mov" />
+            </video>
           </div>
         </div>
       </section>
-
 
       <section className="text-black body-font bg-zinc-100">
         <div className="container px-5 py-4 mx-auto">
@@ -659,7 +845,7 @@ export default function Contact() {
               1
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
             </div>
             <div className="lg:text-3xl md:text-2xl font-bold">
               Keep Stand In's prototyping features
@@ -692,7 +878,7 @@ export default function Contact() {
               2
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
             </div>
             <div className="text-black lg:text-3xl md:text-2xl font-bold">
               Be design tool agnostic
@@ -726,7 +912,7 @@ export default function Contact() {
               3
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
             </div>
             <div className="text-black lg:text-3xl md:text-2xl font-bold">
               Motion, motion, motion
@@ -764,7 +950,7 @@ export default function Contact() {
               4
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
             </div>
             <div className="text-black lg:text-3xl md:text-2xl font-bold">
               Android please!
@@ -801,11 +987,39 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                First Kinetic Release              </p>
+                First Kinetic Release{" "}
+              </p>
             </div>
           </div>
         </div>
       </section>
+
+      <section className="text-black body-font bg-zinc-50">
+        <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className="text-left">
+            <div className="flex mt-px mb-2 justify-left">
+              <div className="lg:text-3xl md:text-2xl font-bold">
+                This recording shows an early version of Kinetic.
+              </div>
+            </div>
+            <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+              Our initial release had motion customization hidden and
+              standardized. We learned that designers wanted more control over
+              the physics and motion specifics. I also reduced the visual
+              styling for the buttons and UI elements to increase hierarchy
+              while minimizing visual noise.
+            </p>
+          </div>
+          <section className="bg-[url('/images/OSX-bg.jpg')] bg-contain bg-no-repeat bg-center">
+            <div className="text-left flex">
+              <video autoPlay loop style={{ width: "900px", height: "900px" }}>
+                <source src="/video/kinetic-demo.mov" />
+              </video>
+            </div>
+          </section>
+        </div>
+      </section>
+
       <section className="text-white body-font bg-zinc-100">
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
@@ -813,7 +1027,11 @@ export default function Contact() {
               This recording shows an early version of Kinetic.
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-              Our initial release had motion customization hidden and standardized. We learned that designers wanted more control over the physics and motion specifics. I also reduced the visual styling for the buttons and UI elements to increase hierarchy while minimizing visual noise.
+              Our initial release had motion customization hidden and
+              standardized. We learned that designers wanted more control over
+              the physics and motion specifics. I also reduced the visual
+              styling for the buttons and UI elements to increase hierarchy
+              while minimizing visual noise.
             </p>
           </div>
         </div>
@@ -823,21 +1041,30 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                Last Kinetic Release             </p>
+                Last Kinetic Release{" "}
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="text-white body-font bg-zinc-100">
+
+      <section className="text-white bg-[url('/images/OSX-bg.jpg')] bg-contain bg-no-repeat bg-center body-font bg-zinc-100">
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-4xl md:text-2xl font-bold py-6">
-              A later version of Kinetic with an updated UX and UI for improved usability.            </p>
-            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-              This version of Kinetic shows how we incorporated the feedback and insights we learned from previous versions. I developed a way to establish a "future state" of an element for designers to move on the screen as a way to design motion without a timeline editor.
+              A later version of Kinetic with an updated UX and UI for improved
+              usability.{" "}
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
-              We also brought the contextual menu concept from Stand In to allow for more granular control over UI elements.            </p>
+              This version of Kinetic shows how we incorporated the feedback and
+              insights we learned from previous versions. I developed a way to
+              establish a "future state" of an element for designers to move on
+              the screen as a way to design motion without a timeline editor.
+            </p>
+            <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black pb-24">
+              We also brought the contextual menu concept from Stand In to allow
+              for more granular control over UI elements.{" "}
+            </p>
           </div>
         </div>
       </section>
@@ -861,7 +1088,7 @@ export default function Contact() {
               1
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex"></div>
             </div>
             <div className="lg:text-3xl md:text-2xl font-bold">
               Our retention was highest with startups and lowest with large
@@ -896,7 +1123,7 @@ export default function Contact() {
               2
             </h2>
             <div className="flex mt-px mb-2 justify-left">
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700  inline-flex"></div>
             </div>
             <div className="lg:text-3xl md:text-2xl font-bold">
               Our price point was too high
@@ -937,7 +1164,7 @@ export default function Contact() {
           <div className="text-left">
             <div className="text-left">
               <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                Essential product lessons I learned
+                Important takeaways for designers
               </p>
             </div>
           </div>
@@ -953,7 +1180,23 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                          <circle cx="9" cy="7" r="4" />
+                          <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                          <path d="M16 3.13a4 4 0 010 7.75" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -965,9 +1208,15 @@ export default function Contact() {
                         Designers, learn to love customer support!
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        While I learned a lot and expanded my skillset with each of the roles I took on, listening to our customers was where I could uncover critical challenges they were facing with our product. I realized that your angriest customers are often your biggest advocates once you validate their feelings and respond to their feedback.
+                        While I learned a lot and expanded my skillset with each
+                        of the roles I took on, listening to our customers was
+                        where I could uncover critical challenges they were
+                        facing with our product. From the very beginning, I made
+                        talking with someone using our product a daily priority.
+                        I realized that your angriest customers are often your
+                        biggest advocates once you validate their feelings and
+                        respond to their feedback.
                       </p>
-
                     </div>
                   </div>
                 </div>
@@ -975,7 +1224,20 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -987,8 +1249,15 @@ export default function Contact() {
                         Develop resilance &amp; grit from change
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Its common to feel stuck and unsure of what to do next in rapid product cycles. I learned how important my natural curiosity was to our momentum. To capture lessons from the day I'd write the answers to two questions before I logged off. First, "what unexpected lessons or events happened to me today?" and second, "How can tomorrow be improved by what today has taught me?"                   </p>
-
+                        Its common to feel stuck and unsure of what to do next
+                        in rapid product cycles. I learned how important my
+                        natural curiosity was to our momentum. To capture
+                        lessons from the day I'd write the answers to two
+                        questions before I logged off. First, "what unexpected
+                        lessons or events happened to me today?" and second,
+                        "How can tomorrow be improved by what today has taught
+                        me?"{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -996,7 +1265,28 @@ export default function Contact() {
                   <div className="h-full flex flex-col items-left text-left">
                     <div className="w-full">
                       <h2 className="title-font font-bold text-5xl font-bold text-white pb-2.5">
-                        *
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          style={{ color: "#ffffff" }}
+                        >
+                          <circle cx="12" cy="12" r="5" />
+                          <path d="M12 1v2" />
+                          <path d="M12 21v2" />
+                          <path d="M4.22 4.22l1.42 1.42" />
+                          <path d="M18.36 18.36l1.42 1.42" />
+                          <path d="M1 12h2" />
+                          <path d="M21 12h2" />
+                          <path d="M4.22 19.78l1.42-1.42" />
+                          <path d="M18.36 5.64l1.42-1.42" />
+                        </svg>
                       </h2>
                       <div className="flex mt-px mb-2 justify-left">
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-amber-400 to-emerald-500 inline-flex"></div>
@@ -1005,10 +1295,16 @@ export default function Contact() {
                         Be fearless and ship
                       </h3>
                       <p className="text-xl italic">
-                        Learn to be comfortable with feeling exposed
+                        Learn to be comfortable with ambiguity
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Designers find comfort in research. We can test our assumptions and make changes by learning early and often. There are real-world experiences and inputs that you can't test for during the research phase—even with incredible prototypes. The best customer insights only come after you've shipped a product and dare to listen to feedback.
+                        Designers, and product teams, find comfort in research.
+                        We can test our assumptions and make changes by learning
+                        early and often. However, there are real-world
+                        experiences and inputs that you can't test for during
+                        the research phase—even with incredible prototypes. The
+                        best customer insights only come after you've shipped a
+                        product and dare to listen to feedback.
                       </p>
                     </div>
                   </div>
@@ -1019,7 +1315,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="text-white body-font bg-black">
+      <section className="text-white body-font bg-gray-900">
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
@@ -1031,34 +1327,65 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="text-bl body-font bg-gray-900 text-white">
-        <div className="container px-5 pt-12 pb-24 mx-auto">
+      <section className="text-white body-font bg-black">
+        <div className="container px-5 pt-12 pb-24 mx-auto ">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl md:text-3xl font-bold py-6">
-                From Sunset
+              <svg
+                fill="none"
+                height="48"
+                shapeRendering="geometricPrecision"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+                width="48"
+                style={{ color: "#fff" }}
+              >
+                <path d="M17 18a5 5 0 00-10 0" />
+                <path d="M12 2v7" />
+                <path d="M4.22 10.22l1.42 1.42" />
+                <path d="M1 18h2" />
+                <path d="M21 18h2" />
+                <path d="M18.36 11.64l1.42-1.42" />
+                <path d="M23 22H1" />
+                <path d="M8 6l4-4 4 4" />
+              </svg>
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl md:text-3xl font-bold py-6 ">
+                From Sunset to{" "}
+                <span className="text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500">
+                  Sunrise
+                </span>
               </p>
 
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md">
-                Out of our frustrations as product makers, we took a stand and said, "this must be better." For two years, we dedicated our lives to improving how designers created device experiences. We were inspired to make engaging products easy for teams to ship. Ultimately, we shut down Kinetic in 2015. I’ll always feel deep gratitude for Stand In & Kinetic for teaching me to:
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l md:text-md">
+                Out of our frustrations as product makers, we took a stand and
+                said, "this must be better." For two years, we dedicated our
+                lives to improving how designers created device experiences. My
+                journey with Kinetic allowed me to graduate into a new level of
+                leadership and design capabilities. I learned that I love
+                collaborating and working with founders using design to unlock
+                their potential.{" "}
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      <section className="text-bl body-font bg-white">
-        <div className="container px-5 pt-12 pb-24 mx-auto">
-          <div className="text-left">
-            <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-5xl md:text-3xl font-bold py-6 ">
-                to Sunrise
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md py-8">
+                After we shut Kinetic down, I spent the next 5 years helping
+                other early-stage founders with end-to-end mobile product design
+                &amp; management services that increased engagement, retention,
+                and product-market fit. I helped teams modernize shipped
+                products with current UX/UI and accessibility practices which
+                allowed them to engage meaningfully with their customers.
               </p>
-
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-l md:text-md">
-                My journey with Kinetic and Stand In ultimately led me to the kind of design that connects deeply with my personality, skills, and valuesearly-stage product design. After we shut Kinetic down, I spent the next 5 years helping other early-stage founders with end-to-end product design          </p>
+              <div className="mx-auto pt-8 text-white ">
+                <button className="font-semibold inline-flex items-center bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-900 via-gray-900 to-black border border-1 border-gray-800 py-4 px-5 rounded drop-shadow-2xl drop-shadow-mix-blend-multiply hover:mix-blend-hard-light ">
+                  <span>Hire me</span>
+                </button>
+              </div>
+              <div className="mx-auto pt-8 text-white ">
+                <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-yellow-500 via-pink-500 to-red-500 to-black border border-1 border-gray-800 py-4 px-5 rounded drop-shadow-2xl drop-shadow-mix-blend-multiply hover:mix-blend-hard-light ">
+                  <span>Hire me</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

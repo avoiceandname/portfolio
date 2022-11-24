@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../src/Footer'
-import Header from '../src/Header'
-import Main from '../src/Main'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Footer from "../src/Footer";
+import Header from "../src/Header";
+import Main from "../src/Main";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="text-white bg-black">
+    <div className="text-black bg-white">
       {/* <NextSeo
       title="Kat Miller"
       description="Kat Miller: Unexpected Joy"
@@ -20,9 +20,8 @@ export default function Home() {
         <title>Kat Miller</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <Main />
       <Footer />
     </div>
-  )
+  );
 }

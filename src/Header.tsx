@@ -1,18 +1,13 @@
 import React from "react";
 
-
-
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <header className="text-white body-font">
+    <header className="text-black body-font bg-white">
       <div className="container mx-auto flex flex-wrap p-5 md:flex-row">
-        <a className="flex title-font font-medium text-white mb-4 md:mb-0 pr-4" href="/">
-          <span className="ml-3 text-3xl">KM</span>
-        </a>
         <button
-          className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
+          className="text-black cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
           type="button"
           onClick={() => setNavbarOpen(!navbarOpen)}
         >
@@ -22,7 +17,7 @@ export default function Header() {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
+            stroke="black"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -41,11 +36,16 @@ export default function Header() {
           id="example-navbar-danger"
         >
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold pl-7">
-            <a className="mr-6 hover:text-white" href="/">Home</a>
-            <a className="mr-6 hover:text-white" href="/kinetic">Kinetic</a>
-            <a className="mr-6 hover:text-white" href="/404">404</a>
+            <a className="mr-6 hover:text-black" href="/">
+              Home
+            </a>
+            <a className="mr-6 hover:text-black" href="/kinetic">
+              Kinetic
+            </a>
+            <a className="mr-6 hover:text-black" href="/404">
+              404
+            </a>
           </nav>
-
         </div>
       </div>
     </header>
