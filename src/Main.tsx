@@ -19,7 +19,7 @@ export default function Main() {
             <div className=" text-gray-500 dark:text-gray-400">
               <p className="text-xl font-normal leading-normal text-black dark:text-black">
                 is a Techstars-backed founder and product designer{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-sky-500 via-pink-600 to-blue-400">
+                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-purple-400 via-violet-500 to-fuchsia-400">
                   specializing in 0→1 device experiences,
                 </span>{" "}
                 from mobile to 10-foot UIs.
