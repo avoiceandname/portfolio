@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     <div className="">
-      <section className="container bg-white m-auto flex flex-col justify-center xl:max-w-6xl mb-8 pt-8 lg:pt-24">
+      <section className="container bg-white m-auto flex flex-col justify-center xl:max-w-6xl mb-8 md:pt-24">
         <div className="flex flex-col lg:flex-row m-auto my-auto ">
           <div className="bg-[#0a0120] sm:bg-white">
             <img
