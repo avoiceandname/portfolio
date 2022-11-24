@@ -418,8 +418,6 @@ export default function Main() {
                 <video
                   autoPlay
                   loop
-                  w-full
-                  h-full
                   className="bg-pink-500 rounded-md row-span-2"
                 >
                   <source src="/video/april-badge.mp4" />
