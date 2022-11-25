@@ -147,11 +147,18 @@ export default function Main() {
               </span>
             </div>
             <div className="text-left mx-auto flex justify-center">
-              <img
+              {/* <img
                 src="/images/kinetic-ui.png"
                 alt=""
                 className="self-start pb-4 m-auto"
-              />
+              /> */}
+              <video
+                autoPlay
+                loop
+                className="bg-pink-500 rounded-md h-full m-auto"
+              >
+                <source src="/video/kinetic-demo.mov" />
+              </video>
             </div>
           </div>
         </div>
@@ -449,12 +456,12 @@ export default function Main() {
                 </video>
 
                 <img
-                  className="object-cover h-full  rounded-md"
+                  className="flex-1 place-self-stretch object-cover m-0 w-auto h-auto rounded-md"
                   src="/images/badges.jpg"
                   alt=""
                 />
                 <img
-                  className="object-cover h-full  rounded-md"
+                  className="flex-1 place-self-stretch object-cover m-0 w-auto h-auto rounded-md"
                   src="/images/stickers.jpg"
                   alt=""
                 />
