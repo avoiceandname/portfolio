@@ -2,7 +2,10 @@ export default function Footer() {
   return (
     <footer className="text-white body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a className="flex title-font font-medium items-center md:justify-start justify-center" href="/">
+        <a
+          className="flex title-font font-medium items-center md:justify-start justify-center"
+          href="/"
+        >
           <span className="ml-3 text-xl">KM</span>
         </a>
 
@@ -66,12 +69,14 @@ export default function Footer() {
       </div>
       <section className="text-white body-font text-xs bg-gray-900">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-
-          <p className="text-left lg:text-xs md:text-xs">
-            This is a long sentence describing what this site was built with and how it was built.
-          </p>
+          <p className="text-left font-italic text-xs">Micro Colophon</p>{" "}
+          <div>
+            <p className="text-left text-xs">
+              This site was built with Next.js & Tailwind CSS and is hosted on
+              Vercel. Icons are from vercel.com/design/icons.
+            </p>
+          </div>
         </div>
-
       </section>
     </footer>
   );

@@ -16,9 +16,9 @@ export default function Main() {
             </h1>
             <div className=" text-gray-500 dark:text-gray-400">
               <p className="text-xl font-normal leading-normal text-black dark:text-black">
-                is a Techstars-backed founder and designer{" "}
+                is a Techstars-backed founder and product designer{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-purple-400 via-violet-500 to-fuchsia-400">
-                  specializing in 0→1 products,
+                  specializing in 0→1 experiences,
                 </span>{" "}
                 from mobile to 10-foot UIs.
               </p>
@@ -95,28 +95,30 @@ export default function Main() {
               </h1>
               <h2 className="mb-8 md:mb-16 text-xl font-light text-black lg:text-3xl ">
                 Kinetic was a Techstars-backed prototyping platform that helped
-                product teams design, build, and ship mobile experiences with
+                product teams design, build and ship mobile experiences with
                 over 10,400 beta signups.
               </h2>
               <span className="mx-auto text-black ">
-                <button className="group mt-1 font-semibold inline-flex items-center bg-black text-violet-400  border border-2 border-black py-4 px-5 rounded hover:bg-violet-400 hover:text-black">
-                  <span className="mr-2">Schedule time to learn more</span>
-                  <svg
-                    className="w-4 h-4 color-violet-400 group-hover:color-white"
-                    fill="none"
-                    height="24"
-                    shapeRendering="geometricPrecision"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    viewBox="0 0 24 24"
-                    width="48"
-                  >
-                    <path d="M5 12h14" />
-                    <path d="M12 5l7 7-7 7" />
-                  </svg>{" "}
-                </button>
+                <a href="/kinetic">
+                  <button className="group mt-1 font-semibold inline-flex items-center bg-black text-violet-400  border border-2 border-black py-4 px-5 rounded hover:bg-violet-400 hover:text-black">
+                    <span className="mr-2">Read the case study</span>
+                    <svg
+                      className="w-4 h-4 color-violet-400 group-hover:color-white"
+                      fill="none"
+                      height="24"
+                      shapeRendering="geometricPrecision"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      viewBox="0 0 24 24"
+                      width="48"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M12 5l7 7-7 7" />
+                    </svg>{" "}
+                  </button>
+                </a>
               </span>
             </div>
             <div className="text-left mx-auto flex justify-center">
