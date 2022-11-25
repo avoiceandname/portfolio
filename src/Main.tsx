@@ -147,11 +147,6 @@ export default function Main() {
               </span>
             </div>
             <div className="text-left mx-auto flex justify-center">
-              {/* <img
-                src="/images/kinetic-ui.png"
-                alt=""
-                className="self-start pb-4 m-auto"
-              /> */}
               <video autoPlay loop className=" rounded-md m-auto">
                 <source src="/video/kinetic-demo-short.mp4" />
               </video>
