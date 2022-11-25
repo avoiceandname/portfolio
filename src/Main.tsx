@@ -122,7 +122,7 @@ export default function Main() {
                 over 10,400 beta signups.
               </h2>
               <span className="mx-auto text-black ">
-                <a href="/kinetic">
+                <a href="https://cal.com/kat/30min">
                   <button className="group mt-1 font-semibold inline-flex items-center bg-black text-violet-400  border border-2 border-black py-4 px-5 rounded hover:bg-violet-400 hover:text-black">
                     <svg
                       className="w-4 h-4 color-violet-400 group-hover:color-white"
@@ -221,26 +221,28 @@ export default function Main() {
                 Built and shipped the MVP of Made in two weeks.
               </h2>
               <span className="mx-auto text-black ">
-                <button className="group mt-1 font-semibold inline-flex items-center bg-black text-sky-500  border border-2 border-black py-4 px-5 rounded hover:bg-sky-500 hover:text-black">
-                  <svg
-                    className="w-4 h-4 color-sky-500 group-hover:color-white"
-                    fill="none"
-                    height="24"
-                    shapeRendering="geometricPrecision"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    viewBox="0 0 24 24"
-                    width="48"
-                  >
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                    <path d="M16 2v4" />
-                    <path d="M8 2v4" />
-                    <path d="M3 10h18" />
-                  </svg>{" "}
-                  <span className="ml-2">Schedule time to learn more</span>
-                </button>
+                <a href="https://cal.com/kat/30min">
+                  <button className="group mt-1 font-semibold inline-flex items-center bg-black text-sky-500  border border-2 border-black py-4 px-5 rounded hover:bg-sky-500 hover:text-black">
+                    <svg
+                      className="w-4 h-4 color-sky-500 group-hover:color-white"
+                      fill="none"
+                      height="24"
+                      shapeRendering="geometricPrecision"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      viewBox="0 0 24 24"
+                      width="48"
+                    >
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                      <path d="M16 2v4" />
+                      <path d="M8 2v4" />
+                      <path d="M3 10h18" />
+                    </svg>{" "}
+                    <span className="ml-2">Schedule time to learn more</span>
+                  </button>
+                </a>
               </span>
             </div>
             <div className="text-left mx-auto flex justify-center">
@@ -321,26 +323,28 @@ export default function Main() {
                 their families, across 4 children's hospitals since 2021.
               </h2>
               <div className="mx-auto text-black ">
-                <button className="group mt-1 font-semibold inline-flex items-center bg-black text-emerald-500  border border-2 border-black py-4 px-5 rounded hover:bg-emerald-500 hover:text-black">
-                  <svg
-                    className="w-4 h-4 color-emerald-500 group-hover:color-white"
-                    fill="none"
-                    height="24"
-                    shapeRendering="geometricPrecision"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    viewBox="0 0 24 24"
-                    width="48"
-                  >
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                    <path d="M16 2v4" />
-                    <path d="M8 2v4" />
-                    <path d="M3 10h18" />
-                  </svg>{" "}
-                  <span className="ml-2">Schedule time to learn more</span>
-                </button>
+                <a href="https://cal.com/kat/30min">
+                  <button className="group mt-1 font-semibold inline-flex items-center bg-black text-emerald-500  border border-2 border-black py-4 px-5 rounded hover:bg-emerald-500 hover:text-black">
+                    <svg
+                      className="w-4 h-4 color-emerald-500 group-hover:color-white"
+                      fill="none"
+                      height="24"
+                      shapeRendering="geometricPrecision"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      viewBox="0 0 24 24"
+                      width="48"
+                    >
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                      <path d="M16 2v4" />
+                      <path d="M8 2v4" />
+                      <path d="M3 10h18" />
+                    </svg>{" "}
+                    <span className="ml-2">Schedule time to learn more</span>
+                  </button>
+                </a>
               </div>
             </div>
             <div className="text-left mx-auto flex justify-center">
@@ -413,26 +417,28 @@ export default function Main() {
               </h2>
 
               <span className="mx-auto text-black">
-                <button className="group mt-1 font-semibold inline-flex items-center bg-black text-amber-500  border border-2 border-black py-4 px-5 rounded hover:bg-amber-500 hover:text-black">
-                  <svg
-                    className="w-4 h-4 color-amber-500 group-hover:color-white"
-                    fill="none"
-                    height="24"
-                    shapeRendering="geometricPrecision"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    viewBox="0 0 24 24"
-                    width="48"
-                  >
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                    <path d="M16 2v4" />
-                    <path d="M8 2v4" />
-                    <path d="M3 10h18" />
-                  </svg>{" "}
-                  <span className="ml-2">Schedule time to review</span>
-                </button>
+                <a href="https://cal.com/kat/30min">
+                  <button className="group mt-1 font-semibold inline-flex items-center bg-black text-amber-500  border border-2 border-black py-4 px-5 rounded hover:bg-amber-500 hover:text-black">
+                    <svg
+                      className="w-4 h-4 color-amber-500 group-hover:color-white"
+                      fill="none"
+                      height="24"
+                      shapeRendering="geometricPrecision"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      viewBox="0 0 24 24"
+                      width="48"
+                    >
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                      <path d="M16 2v4" />
+                      <path d="M8 2v4" />
+                      <path d="M3 10h18" />
+                    </svg>{" "}
+                    <span className="ml-2">Schedule time to review</span>
+                  </button>
+                </a>
               </span>
             </div>
 
