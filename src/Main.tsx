@@ -17,14 +17,14 @@ export default function Main() {
             <div className=" text-gray-500 dark:text-gray-400">
               <p className="text-xl font-normal leading-normal text-black dark:text-black">
                 Techstars-backed founder and product designer{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-purple-400 via-violet-500 to-fuchsia-400">
+                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-red-400 via-violet-500 to-blue-400">
                   specializing in 0→1 experiences,
                 </span>{" "}
                 from mobile to 10-foot UIs.
               </p>
               <div className="mx-auto text-black mt-4">
                 <a
-                  className="flex items-center text-blue-500 hover:text-pink-500"
+                  className="flex items-center text-fuchsia-500 hover:text-violet-500"
                   href="mailto:kat@km.design"
                 >
                   <svg
@@ -42,7 +42,7 @@ export default function Main() {
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <path d="M22 6l-10 7L2 6" />
                   </svg>
-                  <span className="mr-2 ">Contact Kat</span>
+                  <span className="mr-2 ">Email Kat</span>
                 </a>
               </div>
             </div>
@@ -152,12 +152,8 @@ export default function Main() {
                 alt=""
                 className="self-start pb-4 m-auto"
               /> */}
-              <video
-                autoPlay
-                loop
-                className="bg-pink-500 rounded-md h-full m-auto"
-              >
-                <source src="/video/kinetic-demo.mov" />
+              <video autoPlay loop className=" rounded-md m-auto">
+                <source src="/video/kinetic-demo-short.mp4" />
               </video>
             </div>
           </div>
@@ -316,20 +312,20 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-emerald-500">
-        <div className="container m-auto pt-12 md:pt-28 ">
+        <div className="container m-auto pt-12 md:pt-12 ">
           <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className=" mx-auto text-left">
               <h3 className="mb-2 font-bold uppercase text-black lg:text-sm md:text-xs">
                 Case Study
               </h3>
-              <h1 className="mb-8 md:mb-16 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
+              <h1 className="mb-8 md:mb-6 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
                 <span>An empathetic chatbot built for families in crisis.</span>
               </h1>
-              <h2 className="mb-8 md:mb-16 text-xl font-light text-black lg:text-3xl">
+              <h2 className="mb-8 md:mb-6 text-xl font-light text-black lg:text-3xl">
                 Foxbox, a 501(c)3 nonprofit, has supported over 70 infants, and
                 their families, across 4 children's hospitals since 2021.
               </h2>
-              <span className="mx-auto text-black ">
+              <div className="mx-auto text-black ">
                 <button className="group mt-1 font-semibold inline-flex items-center bg-black text-emerald-500  border border-2 border-black py-4 px-5 rounded hover:bg-emerald-500 hover:text-black">
                   <svg
                     className="w-4 h-4 color-emerald-500 group-hover:color-white"
@@ -350,7 +346,7 @@ export default function Main() {
                   </svg>{" "}
                   <span className="ml-2">Schedule time to learn more</span>
                 </button>
-              </span>
+              </div>
             </div>
             <div className="text-left mx-auto flex justify-center">
               <img
@@ -504,7 +500,7 @@ export default function Main() {
               </span>
               "
             </p>
-            <p className="text-left leading-relaxed text-gray-500 pb-12">
+            <p className="text-left leading-relaxed text-gray-500 pb-8">
               Kat Miller is a great designer, art director, and mentor. I’ve
               worked with her for several years in both an agency setting and as
               a freelancer. I’ve had the pleasure of working with her on several
@@ -519,6 +515,13 @@ export default function Main() {
               organization can be confident in her abilities as a creative
               director and manager.{" "}
             </p>
+
+            <a
+              className="text-sm font-bold hover:text-blue-400"
+              href="https://www.linkedin.com/in/millerkat/"
+            >
+              Read more recommendations on LinkedIn
+            </a>
           </div>
         </div>
       </section>
@@ -539,18 +542,109 @@ export default function Main() {
         <div className="container px-5 py-0.5 mx-auto"></div>
       </div>
 
-      <section className="text-white body-font bg-black">
-        <div className="container px-5 py-10 mx-auto">
-          <div className="flex mt-px mb-2 justify-left">
-            <span className="justify-left sm:justify-start">
-              💞{" "}
-              <strong className="underline decoration-1 decoration-line underline-offset-6 decoration-red-100 hover:decoration-blue-400">
-                <a href="https://www.linkedin.com/in/millerkat/">
-                  Read more recommendations
-                </a>
-              </strong>{" "}
-              on LinkedIn.
-            </span>
+      <section className="text-black body-font bg-white">
+        <div className="container flex m-auto pt-8 md:flex-row flex-col">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+            <p className="justify-center items-center flex">
+              <svg
+                className="w-4 h-4 color-amber-500 group-hover:color-white"
+                fill="none"
+                height="24"
+                shapeRendering="geometricPrecision"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+                width="48"
+              >
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <path d="M22 6l-10 7L2 6" />
+              </svg>{" "}
+              <a
+                className="hover:text-blue-500  ml-2"
+                href="mailto:kat@km.design"
+              >
+                kat@km.design
+              </a>
+            </p>
+          </div>
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+            <p className="justify-center items-center flex">
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                height="24"
+                shapeRendering="geometricPrecision"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+                width="48"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <path d="M3 9h18" />
+                <path d="M9 21V9" />
+              </svg>{" "}
+              <a
+                className="font-bold hover:text-blue-400 ml-2"
+                href="https://dribbble.com/kat"
+              >
+                dribbble.com/kat
+              </a>
+            </p>
+          </div>
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left  py-2">
+            <p className="justify-center items-center flex">
+              <svg
+                className="w-4 h-4 color-amber-500 group-hover:color-white"
+                fill="none"
+                height="24"
+                shapeRendering="geometricPrecision"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+                width="48"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  fill="var(--geist-fill)"
+                />
+              </svg>{" "}
+              <a
+                className="hover:text-blue-500  ml-2"
+                href="https://read.cv/katm"
+              >
+                read.cv/katm
+              </a>
+            </p>
+          </div>
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
+            <p className="justify-center items-center flex">
+              <svg
+                className="w-4 h-4 color-amber-500 group-hover:color-white"
+                fill="none"
+                height="24"
+                shapeRendering="geometricPrecision"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                viewBox="0 0 24 24"
+                width="48"
+              >
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+              </svg>{" "}
+              <a
+                className="hover:text-blue-500  ml-2"
+                href="https://twitter.com/avoiceandname"
+              >
+                @avoiceandname
+              </a>
+            </p>
           </div>
         </div>
       </section>
