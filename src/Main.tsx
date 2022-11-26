@@ -55,36 +55,36 @@ export default function Main() {
               <h2 className="title-font font-medium text-lg text-black pb-2.5">
                 Design Director
               </h2>
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-red-600 to-orange-500 inline-flex mb-2"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-red-600 to-orange-400 inline-flex mb-2"></div>
               <h3 className="text-gray-500 text-md">4G Clinical</h3>
-              <p className="text-sm">2022-2022</p>
+              <p className="text-gray-500 text-sm">2022-2022</p>
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
               <h2 className="title-font font-medium text-lg text-black pb-2.5">
                 Partner, Design
               </h2>
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-yellow-600 to-emerald-500 inline-flex mb-2"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-yellow-400 to-emerald-500 inline-flex mb-2"></div>
               <h3 className="text-gray-500 text-md">Tiny Creative</h3>
-              <p className="text-sm">2015-2021</p>
+              <p className="text-sm text-gray-500">2015-2021</p>
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
               <h2 className="title-font font-medium text-lg text-black pb-2.5">
                 Co-Founder, Design
               </h2>
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-sky-600 to-blue-500 inline-flex mb-2"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-sky-600 to-cyan-400 inline-flex mb-2"></div>
               <h3 className="text-gray-500 text-md">Stand In/Kinetic</h3>
-              <p className="text-sm">2013-2015</p>
+              <p className="text-sm text-gray-500">2013-2015</p>
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
               <h2 className="title-font font-medium text-lg text-black pb-2.5">
                 Art Director, UX / UI
               </h2>
-              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-600 to-purple-500 inline-flex mb-2"></div>
+              <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-400 to-purple-800 inline-flex mb-2"></div>
               <h3 className="text-gray-500 text-md">Citizen</h3>
-              <p className="text-sm">2011-2013</p>
+              <p className="text-sm text-gray-500">2011-2013</p>
             </div>
           </div>
         </div>
