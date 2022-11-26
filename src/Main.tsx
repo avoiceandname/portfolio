@@ -249,7 +249,7 @@ export default function Main() {
               <img
                 src="/images/made-ui.jpg"
                 alt=""
-                className="self-start m-auto object-scale-down lg:pt-24"
+                className="self-start m-auto object-scale-down max-w-xs md:max-w-sm lg:pt-24"
               />
             </div>
           </div>
@@ -351,7 +351,7 @@ export default function Main() {
               <img
                 src="/images/foxbox-ui.jpg"
                 alt=""
-                className="self-start m-auto object-scale-down lg:pt-24"
+                className="self-start m-auto object-scale-down max-w-xs md:max-w-sm lg:pt-24"
               />
             </div>
           </div>
