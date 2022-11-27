@@ -16,9 +16,9 @@ export default function Main() {
             </h1>
             <div className=" text-gray-500 dark:text-gray-400">
               <p className="text-xl font-normal leading-normal text-black dark:text-black">
-                Techstars-backed founder and product designer{" "}
+                Techstars-backed founder and designer{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-red-400 via-violet-500 to-blue-400">
-                  specializing in 0→1 experiences,
+                  specializing in 0→1 products for devices,
                 </span>{" "}
                 from mobile to 10-foot UIs.
               </p>
@@ -436,7 +436,7 @@ export default function Main() {
                       <path d="M8 2v4" />
                       <path d="M3 10h18" />
                     </svg>{" "}
-                    <span className="ml-2">Schedule time to review</span>
+                    <span className="ml-2">Schedule time to learn more</span>
                   </button>
                 </a>
               </span>
