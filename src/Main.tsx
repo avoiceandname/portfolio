@@ -412,7 +412,7 @@ export default function Main() {
               </h1>
 
               <h2 className="mb-8 text-xl font-light text-black lg:text-3xl ">
-                Built the entire brand and conference experience in less than 6
+                Built the brand and conference experience in less than 6
                 weeks for a 300+ attendee all hands.
               </h2>
 
