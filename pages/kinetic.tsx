@@ -12,7 +12,7 @@ export default function Contact() {
       <Header />
 
       <section className="text-white body-font bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-violet-900 via-black to-black">
-        <div className="container px-5 mx-auto grid grid-cols-1 md:grid-cols-2">
+        <div className="container px-5 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2">
           <div className="container px-5 py-28 mx-auto">
             <div className="text-left mx-auto">
               <img
@@ -40,7 +40,13 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="text-left"></div>
+
+          <div className="text-left mx-auto flex justify-center">
+            <video autoPlay loop className=" rounded-md m-auto">
+              <source src="/video/kinetic-demo-short.mp4" />
+            </video>
+          </div>
+
         </div>
       </section>
 
@@ -374,21 +380,14 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className="text-white body-font bg-violet-900">
-        <div className="container px-5 py-4 mx-auto">
-          <div className="text-left">
-            <div className="text-left">
-              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
-                My roles at Kinetic
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="text-white body-font bg-violet-800">
-        <div className="container px-5 pt-16 mx-auto">
+        <div className="container px-5 pt-8 mx-auto">
           <div className="text-center">
             <div className="container pt-4 pb-16 mx-auto">
+              <p className="text-left font-bold leading-relaxed lg:text-md text-sm pb-8">
+                My roles at Kinetic
+              </p>
               <div className="flex flex-wrap -m-4">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full flex flex-col items-left text-left">
@@ -565,7 +564,7 @@ export default function Contact() {
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+              <p className="text-left font-light lg:text-lg text-md">
                 What we learned after launching the Photoshop plugin:
               </p>
             </div>
@@ -573,7 +572,7 @@ export default function Contact() {
         </div>
       </section>
       <section className="text-white body-font bg-violet-800">
-        <div className="container px-5 pt-16 mx-auto">
+        <div className="container px-5 pt-8 mx-auto">
           <div className="text-center">
             <div className="container pt-4 pb-16 mx-auto">
               <div className="flex flex-wrap -m-4">
@@ -723,7 +722,7 @@ export default function Contact() {
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-3xl md:text-2xl">
+              <p className="text-left font-light lg:text-lg text-md">
                 Transitioning from a Photoshop plugin to a Mac app
               </p>
             </div>
@@ -733,18 +732,16 @@ export default function Contact() {
 
       <section className="text-white body-font bg-black">
         <div className="container px-5 py-24 mx-auto">
-          <div className="text-left">
-            <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
-                Techstars gave us the time and resources to take a deeper look
-                at the problems facing our customers which led to{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-violet-300">
-                  Kinetic.
-                </span>{" "}
-              </p>
-            </div>
-          </div>
+
+          <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-white lg:text-5xl md:text-3xl font-bold py-6">
+            Techstars gave us the time and resources to take a deeper look
+            at the problems facing our customers which led to{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-300">
+              Kinetic.
+            </span>{" "}
+          </p>
         </div>
+
       </section>
 
       {/* <section className="text-gray-900 body-font bg-[#ECE5DF]">
@@ -788,10 +785,58 @@ export default function Contact() {
         </div>
       </section> */}
 
+      {/* <section className="text-white body-font bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-violet-900 via-black to-black">
+        <div className="container px-5 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2">
+          <div className="container px-5 py-28 mx-auto">
+            <div className="text-left mx-auto">
+              <img
+                src="/images/kinetic-small-logo.png"
+                alt=""
+                className=" w-12 self-start pb-4"
+              />
+              <p className="text-left font-bold leading-relaxed text-white">
+                Kinetic
+              </p>
+              <p className="text-left leading-relaxed text-white">
+                UX, UI, Strategy
+              </p>
+              <div className="w-9 h-0.5 rounded-full bg-white inline-flex"></div>
+
+              <h1 className="mb-16 text-7xl pt-12 font-bold text-white lg:text-7xl md:text-1xl">
+                <span>Kinetic</span>
+              </h1>
+
+              <h2 className="sm:justify-start text-white mx-auto">
+                A Mac App for building realistic prototypes and experimenting
+                with real-time UI motion design on devices.
+              </h2>
+
+              <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
+                I love this video of Kinetic and a paired device working together
+                seamlessly in real-time—it feels like magic. As the motion is
+                created in the Mac App, the design is loaded automatically onto
+                the device. The movement is triggered from the Mac App, in this
+                instance, allowing for rapid design refinements based on how the
+                UI moves on the iPhone. Kinetic prototypes could be triggered
+                either from the Mac App or the device prototype.
+              </p>
+            </div>
+
+          </div>
+
+          <div className="text-left mx-auto flex justify-center">
+            <video autoPlay loop className=" rounded-md m-auto">
+              <source src="/video/kinetic-demo-short.mp4" />
+            </video>
+          </div>
+
+        </div>
+      </section> */}
+
       <section className="text-white body-font bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-violet-900 via-black to-black">
         <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="text-left">
-            <div className="flex mt-px mb-2 justify-left"></div>
+
             <div className="flex mt-px mx-auto mb-2"></div>
             <img
               src="/images/kinetic-icon-sm.png"
@@ -802,12 +847,12 @@ export default function Contact() {
             <h1 className="mb-4 justify-left text-4xl font-bold lg:text-6xl md:text-1xl">
               <span>Kinetic</span>
             </h1>
-            <div className="text-left">
-              <p className="sm:justify-left lg:text-xl md:text-l mx-auto lg:pr-28">
-                A Mac App for building realistic prototypes and experimenting
-                with real-time UI motion design on devices.
-              </p>
-            </div>
+
+            <p className="sm:justify-left lg:text-xl md:text-l mx-auto lg:pr-28">
+              A Mac App for building realistic prototypes and experimenting
+              with real-time UI motion design on devices.
+            </p>
+
             <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
               I love this video of Kinetic and a paired device working together
               seamlessly in real-time—it feels like magic. As the motion is
@@ -818,9 +863,9 @@ export default function Contact() {
               either from the Mac App or the device prototype.
             </p>
           </div>
-          <div className="text-left flex">
-            <video autoPlay loop w-full h-full>
-              <source src="/video/kinetic-demo.mov" />
+          <div className="text-left mx-auto bg-red flex justify-center">
+            <video autoPlay loop className=" rounded-md m-auto">
+              <source src="/video/kinetic-demo-short.mp4" />
             </video>
           </div>
         </div>
