@@ -28,7 +28,7 @@ export default function Contact() {
               </p>
               <div className="w-9 h-0.5 rounded-full bg-white inline-flex"></div>
 
-              <h1 className="mb-16 text-5xl md:text-7xl pt-12 font-bold lg:text-7xl md:text-1xl">
+              <h1 className="mb-8 md:mb-16 text-5xl md:text-7xl pt-6 md:pt-12 font-bold lg:text-7xl md:text-1xl">
                 <span>Prototype on devices in real time.</span>
               </h1>
               <div className="text-left">
