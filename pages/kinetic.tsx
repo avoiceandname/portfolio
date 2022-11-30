@@ -1008,7 +1008,7 @@ export default function Contact() {
         </div>
       </section>
       <section className="text-black body-font bg-zinc-50">
-        <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="container px-5 py-12 md:py-24 mx-auto grid grid-cols-1 gap-6 md:grid-cols-2">
           <div className="text-left">
             <h2 className="title-font font-bold text-5xl font-bold pb-2.5">
               2
