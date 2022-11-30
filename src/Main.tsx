@@ -90,21 +90,6 @@ export default function Main() {
         </div>
       </section>
 
-      {/* <div className="bg-sky-400">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
-      <div className="bg-emerald-600">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
-      <div className="bg-amber-400">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
-      <div className="bg-orange-500">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
-      <div className="bg-red-600">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div> */}
 
       <section className="text-black body-font bg-violet-400">
         <div className="container m-auto py-12 md:py-28">
@@ -122,8 +107,10 @@ export default function Main() {
                 over 10,400 beta signups.
               </h2>
               <span className="mx-auto text-black ">
-                <a href="https://cal.com/kat/30min">
+                <a href="/kinetic">
                   <button className="group mt-1 font-semibold inline-flex items-center bg-black text-violet-400  border border-2 border-black py-4 px-5 rounded hover:bg-violet-400 hover:text-black">
+
+                    <span className="mr-2">View the Case Study</span>
                     <svg
                       className="w-4 h-4 color-violet-400 group-hover:color-white"
                       fill="none"
@@ -136,13 +123,11 @@ export default function Main() {
                       viewBox="0 0 24 24"
                       width="48"
                     >
-                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                      <path d="M16 2v4" />
-                      <path d="M8 2v4" />
-                      <path d="M3 10h18" />
+                      <path d="M5 12h14" /><path d="M12 5l7 7-7 7" />
                     </svg>{" "}
-                    <span className="ml-2">Schedule time to learn more</span>
+
                   </button>
+
                 </a>
               </span>
             </div>
