@@ -528,6 +528,9 @@ export default function Main() {
         </div>
       </section>
 
+      <div className="bg-violet-700">
+        <div className="container px-5 py-0.5 mx-auto"></div>
+      </div>
       <div className="bg-sky-400">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </div>
@@ -540,9 +543,7 @@ export default function Main() {
       <div className="bg-orange-500">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </div>
-      <div className="bg-red-600">
-        <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
+
 
       <section className="text-black body-font bg-white">
         <div className="container flex m-auto pt-8 md:flex-row flex-col">
