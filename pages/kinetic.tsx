@@ -516,7 +516,7 @@ export default function Contact() {
             </p>
           </div>
           <div className="text-left mx-auto bg-red flex justify-center">
-            <video autoPlay loop className=" rounded-md m-auto">
+            <video autoPlay muted loop className=" rounded-md m-auto">
               <source src="/video/standin-photoshop.mp4" />
             </video>
           </div>
