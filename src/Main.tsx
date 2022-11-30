@@ -90,7 +90,7 @@ export default function Main() {
         </div>
       </section>
 
-      <div className="bg-sky-400">
+      {/* <div className="bg-sky-400">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </div>
       <div className="bg-emerald-600">
@@ -104,7 +104,7 @@ export default function Main() {
       </div>
       <div className="bg-red-600">
         <div className="container px-5 py-0.5 mx-auto"></div>
-      </div>
+      </div> */}
 
       <section className="text-black body-font bg-violet-400">
         <div className="container m-auto py-12 md:py-28">
@@ -113,10 +113,10 @@ export default function Main() {
               <h3 className="mb-2 font-bold uppercase text-black lg:text-sm md:text-xs">
                 Case Study
               </h3>
-              <h1 className="mb-8 md:mb-16 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
+              <h1 className="mb-8 md:mb-10 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
                 <span>Everything changes when fingers hit glass.</span>
               </h1>
-              <h2 className="mb-8 md:mb-16 text-xl font-light text-black lg:text-3xl ">
+              <h2 className="mb-8 md:mb-10 text-xl font-light text-black lg:text-3xl ">
                 Kinetic was a Techstars-backed prototyping platform that helped
                 product teams design, build and ship mobile experiences with
                 over 10,400 beta signups.
@@ -178,11 +178,11 @@ export default function Main() {
 
             <p className="text-left leading-tight text-2xl text-white lg:text-4xl  font-bold py-6">
               "Kat{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-violet-400">
                 brings order to the chaos
               </span>{" "}
               that characterizes all early project development when one must{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-400">
                 convert ideas
               </span>{" "}
               into a plan of action."
@@ -214,10 +214,10 @@ export default function Main() {
               <h3 className="mb-2 font-bold uppercase text-black lg:text-sm md:text-xs">
                 Case Study
               </h3>
-              <h1 className="mb-8 md:mb-16 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
+              <h1 className="mb-4 md:mb-10 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
                 <span>Help other makers by sharing what you’ve Made.</span>
               </h1>
-              <h2 className="mb-8 md:mb-16 text-xl font-light text-black lg:text-3xl ">
+              <h2 className="mb-4 md:mb-10 text-xl font-light text-black lg:text-3xl ">
                 Built and shipped the MVP of Made in two weeks.
               </h2>
               <span className="mx-auto text-black ">
@@ -315,10 +315,10 @@ export default function Main() {
               <h3 className="mb-2 font-bold uppercase text-black lg:text-sm md:text-xs">
                 Case Study
               </h3>
-              <h1 className="mb-8 md:mb-6 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
+              <h1 className="mb-8 md:mb-10 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
                 <span>An empathetic chatbot built for families in crisis.</span>
               </h1>
-              <h2 className="mb-8 md:mb-6 text-xl font-light text-black lg:text-3xl">
+              <h2 className="mb-8 md:mb-10 text-xl font-light text-black lg:text-3xl">
                 Foxbox, a 501(c)3 nonprofit, has supported over 70 infants, and
                 their families, across 4 children's hospitals since 2021.
               </h2>
