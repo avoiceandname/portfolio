@@ -42,7 +42,7 @@ export default function Contact() {
           </div>
 
           <div className="text-left mx-auto flex justify-center">
-            <video autoPlay loop className=" rounded-md m-auto">
+            <video autoPlay muted loop className=" rounded-md m-auto">
               <source src="/video/kinetic-demo-short.mp4" />
             </video>
           </div>
