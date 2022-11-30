@@ -11,7 +11,7 @@ export default function Contact() {
       </Head>
       <Header />
 
-      <section className="text-white body-font bg-violet-900 py-28">
+      <section className="text-white body-font bg-violet-900 py-8 md:py-28">
         <div className="container px-5 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2">
           <div className="container px-5 mx-auto">
             <div className="text-left mx-auto">
