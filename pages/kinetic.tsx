@@ -96,7 +96,7 @@ export default function Contact() {
         <div className="container px-5 py-4 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="ttext-left font-light lg:text-lg text-md">
+              <p className="text-left font-light lg:text-lg text-md">
                 The year was{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-violet-800 to-purple-500">
                   2013
@@ -111,7 +111,7 @@ export default function Contact() {
         <div className="container px-5 pt-12 pb-24 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-black lg:text-5xl md:text-3xl font-bold py-6">
+              <p className="text-left xl:w-3/4 lg:w-3/4 text-black lg:text-5xl text-3xl font-bold py-6">
                 Photoshop was the leading design software and dominated the
                 space.
               </p>
@@ -130,11 +130,11 @@ export default function Contact() {
       <section className="text-white body-font bg-black">
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
-            <p className="text-left lg:w-3/4 text-white text-4xl lg:text-6xl font-bold pb-2">
-              Everything changes when
-              <div className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500 mx-auto pb-6">
+            <p className="text-left lg:w-3/4 text-white text-5xl lg:text-6xl font-bold pb-2">
+              Everything changes when {''}
+              <p className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500 mx-auto pb-8">
                 fingers hit glass.
-              </div>
+              </p>
             </p>
             <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 text-gray-500">
               I have spent the majority of my career building products for
@@ -698,7 +698,7 @@ export default function Contact() {
 
           <p className="text-left xl:w-3/4 lg:w-3/4 text-white lg:text-5xl text-3xl font-bold py-6">
             Techstars gave us the time and resources to take a deeper look
-            at the problems facing our customers which led to{" "}
+            at the challenges facing our customers which led to{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-300">
               Kinetic.
             </span>{" "}
@@ -951,7 +951,7 @@ export default function Contact() {
           </div>
 
           <div className="text-left mx-auto bg-red flex pt-8 justify-center">
-            <video autoPlay loop className="w-11/12 rounded-lg m-auto">
+            <video autoPlay loop className="w-11/12 rounded-sm m-auto">
               <source src="/video/kinetic-motion-design-01.mp4" />
             </video>
           </div>
