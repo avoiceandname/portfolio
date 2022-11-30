@@ -476,8 +476,9 @@ export default function Main() {
 
       <section className="text-white body-font bg-black">
         <div className="container m-auto xl:max-w-6xl">
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
-            <div className="flex items-center space-x-4 py-6">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-20
+          ">
+            <div className="flex items-center space-x-4">
               <img
                 className="w-10 h-10 rounded-full"
                 src="https://media-exp1.licdn.com/dms/image/C5603AQFWXlvbQ18_rQ/profile-displayphoto-shrink_100_100/0/1564757108379?e=1674691200&v=beta&t=oQprtdU9PhZ46K1orKFIc87dB57YboIAFGpcTFvVLnU"
