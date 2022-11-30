@@ -739,7 +739,7 @@ export default function Contact() {
             </p>
           </div>
           <div className="text-left mx-auto pt-12 pb-8 md:pb-12 md:pb-0 flex justify-center">
-            <video autoPlay loop className=" rounded-md m-auto">
+            <video autoPlay muted loop className=" rounded-md m-auto">
               <source src="/video/kinetic-demo-short.mp4" />
             </video>
           </div>
@@ -909,7 +909,7 @@ export default function Contact() {
 
 
           <div className="text-left mx-auto mb-2 pb-8 flex justify-left">
-            <video autoPlay loop className=" rounded-md m-auto">
+            <video autoPlay muted loop className=" rounded-md m-auto">
               <source src="/video/early-kinetic-01.mp4" />
             </video>
           </div>
@@ -951,7 +951,7 @@ export default function Contact() {
           </div>
 
           <div className="text-left mx-auto bg-red flex pt-8 justify-center">
-            <video autoPlay loop className="w-11/12 rounded-sm m-auto">
+            <video autoPlay muted loop className="w-11/12 rounded-sm m-auto">
               <source src="/video/kinetic-motion-design-01.mp4" />
             </video>
           </div>
