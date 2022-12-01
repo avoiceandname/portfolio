@@ -31,8 +31,9 @@ export default function Contact() {
               </h1>
               <div className="text-left">
                 <p className="sm:justify-start mx-auto">
-                  Kinetic was a prototyping platform to help product teams
-                  design, build, and ship device experiences.
+                  A case study in learning and adapting while creating a
+                  prototyping platform to help product teams design, build, and
+                  ship device experiences.
                 </p>
               </div>
             </div>
