@@ -1236,7 +1236,7 @@ export default function Contact() {
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l md:text-md">
                 After we shut Kinetic down, I spent the next five years helping
                 other early-stage founders with end-to-end mobile product design
-                amp; management services that increased engagement, retention,
+                and management services that increased engagement, retention,
                 and product-market fit. I helped teams modernize shipped
                 products with current UX/UI and accessibility practices,
                 allowing them to engage meaningfully with their customers.{" "}
@@ -1245,7 +1245,7 @@ export default function Contact() {
                 <a href="mailto:kat@km.design">
                   {" "}
                   <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 to-black border border-1 border-gray-800 py-4 px-5 rounded hover:bg-red ">
-                    <span>Let's build together!</span>
+                    <span>Email Kat</span>
                   </button>
                 </a>
               </div>
