@@ -1245,7 +1245,7 @@ export default function Contact() {
                 <a href="mailto:kat@km.design">
                   {" "}
                   <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 to-black border border-1 border-gray-800 py-4 px-5 rounded hover:bg-red ">
-                    <span>Email Kat</span>
+                    <span>Contact Kat</span>
                   </button>
                 </a>
               </div>
