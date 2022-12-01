@@ -20,9 +20,7 @@ export default function Contact() {
                 alt=""
                 className=" w-12 self-start pb-4"
               />
-              <p className="text-left font-bold leading-relaxed">
-                Kinetic
-              </p>
+              <p className="text-left font-bold leading-relaxed">Kinetic</p>
               <p className="text-left leading-relaxed">
                 Lead Product Designer & Manager
               </p>
@@ -33,9 +31,8 @@ export default function Contact() {
               </h1>
               <div className="text-left">
                 <p className="sm:justify-start mx-auto">
-                  A case study in learning and adapting while creating a
-                  prototyping platform to help product teams design, build, and ship
-                  device experiences.
+                  Kinetic was a prototyping platform to help product teams
+                  design, build, and ship device experiences.
                 </p>
               </div>
             </div>
@@ -46,51 +43,44 @@ export default function Contact() {
               <source src="/video/kinetic-demo-short.mp4" />
             </video>
           </div>
-
         </div>
       </section>
       <section className="container bg-black m-auto flex flex-col justify-center py-12 mb-8 md:pt-12">
         <div className="my-4 lg:my-16">
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-8 lg:mx-auto">
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="text-lg text-gray-500 pb-2.5">
-                Beta Sign Ups
-              </h2>
+              <h2 className="text-lg text-gray-500 pb-2.5">Beta Sign Ups</h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex mb-2"></div>
-              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">10,400+</h3>
-
+              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">
+                10,400+
+              </h3>
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="text-lg text-gray-500 pb-2.5">
-                Paying Customers
-              </h2>
+              <h2 className="text-lg text-gray-500 pb-2.5">Paying Customers</h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex mb-2"></div>
-              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">100</h3>
-
+              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">
+                100
+              </h3>
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="text-lg text-gray-500 pb-2.5">
-                Timeline
-              </h2>
+              <h2 className="text-lg text-gray-500 pb-2.5">Timeline</h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex mb-2"></div>
-              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">2 years</h3>
-
+              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">
+                2 years
+              </h3>
             </div>
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="text-lg text-gray-500 pb-2.5">
-                Team Members
-              </h2>
+              <h2 className="text-lg text-gray-500 pb-2.5">Team Members</h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-violet-900 to-violet-700 inline-flex mb-2"></div>
-              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">3</h3>
-
+              <h3 className="title-font font-medium text-5xl font-bold text-white pb-2.5">
+                3
+              </h3>
             </div>
-
           </div>
         </div>
-      </section >
-
+      </section>
 
       <section className="text-black body-font bg-zinc-100">
         <div className="container px-5 py-4 mx-auto">
@@ -131,7 +121,7 @@ export default function Contact() {
         <div className="container px-5 pt-24 mx-auto">
           <div className="text-left">
             <p className="text-left lg:w-3/4 text-white text-5xl lg:text-6xl font-bold pb-2">
-              Everything changes when {''}
+              Everything changes when {""}
               <p className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-500 mx-auto pb-8">
                 fingers hit glass.
               </p>
@@ -315,7 +305,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section >
+      </section>
 
       <section className="text-white body-font bg-black">
         <div className="container px-5 py-24 mx-auto">
@@ -351,7 +341,6 @@ export default function Contact() {
         <div className="container px-5 pt-8 mx-auto">
           <div className="text-center">
             <div className="container pt-4 pb-16 mx-auto">
-
               <div className="flex flex-wrap -m-4">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full flex flex-col items-left text-left">
@@ -491,11 +480,9 @@ export default function Contact() {
         </div>
       </section>
 
-
       <section className="text-black body-font bg-zinc-100">
         <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="text-left">
-
             <div className="flex mt-px mx-auto mb-2"></div>
             <img
               src="/images/standin-icon.png"
@@ -695,23 +682,19 @@ export default function Contact() {
 
       <section className="text-white body-font bg-black">
         <div className="container px-5 py-12 md:py-24 mx-auto">
-
           <p className="text-left xl:w-3/4 lg:w-3/4 text-white lg:text-5xl text-3xl font-bold py-6">
-            Techstars gave us the time and resources to take a deeper look
-            at the challenges facing our customers which led to{" "}
+            Techstars gave us the time and resources to take a deeper look at
+            the challenges facing our customers which led to{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-300">
               Kinetic.
             </span>{" "}
           </p>
         </div>
-
       </section>
-
 
       <section className="text-white body-font bg-violet-900">
         <div className="container px-5 py-16 md:py-24 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="text-left">
-
             <div className="flex mt-px mx-auto mb-2"></div>
             <img
               src="/images/kinetic-icon-sm.png"
@@ -724,8 +707,8 @@ export default function Contact() {
             </h1>
 
             <p className="sm:justify-left lg:text-xl md:text-l mx-auto lg:pr-28">
-              A Mac App for building realistic prototypes and experimenting
-              with real-time UI motion design on devices.
+              A Mac App for building realistic prototypes and experimenting with
+              real-time UI motion design on devices.
             </p>
 
             <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
@@ -896,18 +879,17 @@ export default function Contact() {
             />
             <p className="justify-left text-xs text-gray-500 mx-auto sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
               Kinetic brand illustration by{" "}
-              <a href="http://www.beccacm.com">Becca Charlier-Matthews (hire her!)</a> &amp;
-              creative direction by Kat.
+              <a href="http://www.beccacm.com">
+                Becca Charlier-Matthews (hire her!)
+              </a>{" "}
+              &amp; creative direction by Kat.
             </p>
           </div>
         </div>
       </section>
 
-
       <section className="text-white body-font bg-black py-24">
         <div className="container px-5  mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
-
-
           <div className="text-left mx-auto mb-2 pb-8 flex justify-left">
             <video autoPlay muted loop className=" rounded-md m-auto">
               <source src="/video/early-kinetic-01.mp4" />
@@ -944,10 +926,10 @@ export default function Contact() {
               This version of Kinetic shows how we incorporated the feedback and
               insights we learned from previous versions. I developed a way to
               establish a "future state" of an element for designers to move on
-              the screen as a way to design motion without a timeline editor. We also brought the contextual menu concept from Stand In to allow
+              the screen as a way to design motion without a timeline editor. We
+              also brought the contextual menu concept from Stand In to allow
               for more granular control over UI elements.
             </p>
-
           </div>
 
           <div className="text-left mx-auto bg-red flex pt-8 justify-center">
@@ -957,8 +939,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-
 
       <section className="text-black body-font bg-zinc-100">
         <div className="container px-5 py-4 mx-auto">
@@ -1099,13 +1079,13 @@ export default function Contact() {
                         Designers, learn to love customer support!
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Listening to our customers was
-                        where I could uncover critical challenges that they were
-                        facing with our product. From the very beginning, I prioritized
-                        having a conversation with someone using our product every day.
-                        During those interviews, I realized that your angriest customers are often your
-                        biggest advocates once you validate their feelings and
-                        respond to their feedback.
+                        Listening to our customers was where I could uncover
+                        critical challenges that they were facing with our
+                        product. From the very beginning, I prioritized having a
+                        conversation with someone using our product every day.
+                        During those interviews, I realized that your angriest
+                        customers are often your biggest advocates once you
+                        validate their feelings and respond to their feedback.
                       </p>
                     </div>
                   </div>
@@ -1139,13 +1119,12 @@ export default function Contact() {
                         Develop resilance &amp; grit from change
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        I learned how important my
-                        natural curiosity was to our product's momentum. To capture
-                        lessons from the day I'd write the answers to two
-                        questions before I logged off. First, "what unexpected
-                        lessons or events happened to me today?" and second,
-                        "How can tomorrow be improved by what today has taught
-                        me?"{" "}
+                        I learned how important my natural curiosity was to our
+                        product's momentum. To capture lessons from the day I'd
+                        write the answers to two questions before I logged off.
+                        First, "what unexpected lessons or events happened to me
+                        today?" and second, "How can tomorrow be improved by
+                        what today has taught me?"{" "}
                       </p>
                     </div>
                   </div>
@@ -1187,11 +1166,11 @@ export default function Contact() {
                         Learn to be comfortable with ambiguity
                       </p>
                       <p className="justify-left text-sm sm:justify-start pt-8 xl:w-3/4 lg:w-3/4">
-                        Designers find comfort in research. However, there are real-world
-                        experiences and inputs that you can't test for during
-                        the research phase—even with incredible prototypes. The
-                        best customer insights only come after you've shipped a
-                        product and listen to feedback.
+                        Designers find comfort in research. However, there are
+                        real-world experiences and inputs that you can't test
+                        for during the research phase—even with incredible
+                        prototypes. The best customer insights only come after
+                        you've shipped a product and listen to feedback.
                       </p>
                     </div>
                   </div>
@@ -1246,24 +1225,33 @@ export default function Contact() {
                 </span>
               </p>
 
-
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md py-2 md:py-4">
-
                 My journey with Kinetic allowed me to graduate to a new level of
-                product design and management capabilities. Building products for Fortune-teir companies like Samsung, Intel, HTC, T-Mobile, AT&T, Dell, etc., dominated my career until that point.     </p>
+                product design and management capabilities. Building products
+                for Fortune-teir companies like Samsung, Intel, HTC, T-Mobile,
+                AT&T, Dell, etc., dominated my career until that point.{" "}
+              </p>
 
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l md:text-md">
-                After we shut Kinetic down, I spent the next five years helping other early-stage founders with end-to-end mobile product design amp; management services that increased engagement, retention, and product-market fit. I helped teams modernize shipped products with current UX/UI and accessibility practices, allowing them to engage meaningfully with their customers. </p>
+                After we shut Kinetic down, I spent the next five years helping
+                other early-stage founders with end-to-end mobile product design
+                amp; management services that increased engagement, retention,
+                and product-market fit. I helped teams modernize shipped
+                products with current UX/UI and accessibility practices,
+                allowing them to engage meaningfully with their customers.{" "}
+              </p>
               <div className="mx-auto pt-12 text-white ">
-                <a href="mailto:kat@km.design"> <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 to-black border border-1 border-gray-800 py-4 px-5 rounded hover:bg-red ">
-                  <span>Let's build together!</span>
-                </button></a>
+                <a href="mailto:kat@km.design">
+                  {" "}
+                  <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 to-black border border-1 border-gray-800 py-4 px-5 rounded hover:bg-red ">
+                    <span>Let's build together!</span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-    </div >
+    </div>
   );
 }
