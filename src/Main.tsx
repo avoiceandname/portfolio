@@ -17,7 +17,7 @@ export default function Main() {
             <div className=" text-gray-500 dark:text-gray-400">
               <p className="text-xl font-normal leading-normal text-black dark:text-black">
                 Techstars-backed founder and designer{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-red-400 via-violet-500 to-blue-400">
+                <span className="text-transparent font-bold bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-purple-400 via-violet-500 to-blue-400">
                   specializing in 0→1 products for devices,
                 </span>{" "}
                 from mobile to 10-foot UIs.
@@ -90,7 +90,6 @@ export default function Main() {
         </div>
       </section>
 
-
       <section className="text-black body-font bg-violet-400">
         <div className="container m-auto py-12 md:py-28">
           <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -109,7 +108,6 @@ export default function Main() {
               <span className="mx-auto text-black ">
                 <a href="/kinetic">
                   <button className="group mt-1 font-semibold inline-flex items-center bg-black text-violet-400  border border-2 border-black py-4 px-5 rounded hover:bg-violet-400 hover:text-black">
-
                     <span className="mr-2">View the Case Study</span>
                     <svg
                       className="w-4 h-4 color-violet-400 group-hover:color-white"
@@ -123,11 +121,10 @@ export default function Main() {
                       viewBox="0 0 24 24"
                       width="48"
                     >
-                      <path d="M5 12h14" /><path d="M12 5l7 7-7 7" />
+                      <path d="M5 12h14" />
+                      <path d="M12 5l7 7-7 7" />
                     </svg>{" "}
-
                   </button>
-
                 </a>
               </span>
             </div>
@@ -146,7 +143,7 @@ export default function Main() {
             <div className="flex items-center space-x-4 py-6 ">
               <img
                 className="w-10 h-10 rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQHlSYh_4p9r8g/profile-displayphoto-shrink_100_100/0/1517692339757?e=1674691200&v=beta&t=YbgvSuc-QhDKqb5PasoEd7lzXjTEc-fwiqWOUGJf-M0"
+                src="/images/falco.jpg"
                 alt=""
               />
               <div className="font-medium dark:text-white">
@@ -247,7 +244,7 @@ export default function Main() {
             <div className="flex items-center space-x-4 py-6">
               <img
                 className="w-10 h-10 rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQEVVwi4Nu-EAA/profile-displayphoto-shrink_100_100/0/1646784911662?e=1674691200&v=beta&t=hEAsZekwrKYb127ymbyyYZtNgA6qsPV6WlN2zUdbWZo"
+                src="/images/hovey.jpg"
                 alt=""
               />
               <div className="font-medium dark:text-white">
@@ -294,7 +291,7 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-emerald-500">
-        <div className="container m-auto pt-12 md:pt-12 ">
+        <div className="container m-auto pt-12 md:pt-28">
           <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className=" mx-auto text-left">
               <h3 className="mb-2 font-bold uppercase text-black lg:text-sm md:text-xs">
@@ -349,7 +346,7 @@ export default function Main() {
             <div className="flex items-center space-x-4 py-6">
               <img
                 className="w-10 h-10 rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQHmr7fcIbxByA/profile-displayphoto-shrink_100_100/0/1600795640583?e=1674691200&v=beta&t=f-iY4ERV80qWKB4TqkSm_FuNwTEF8LrpPcvvcH29Gpk"
+                src="/images/chen.jpeg"
                 alt=""
               />
               <div className="font-medium dark:text-white">
@@ -397,8 +394,8 @@ export default function Main() {
               </h1>
 
               <h2 className="mb-8 text-xl font-light text-black lg:text-3xl ">
-                Built the brand and conference experience in less than 6
-                weeks for a 300+ attendee all hands.
+                Built the brand and conference experience in less than 6 weeks
+                for a 300+ attendee all hands.
               </h2>
 
               <span className="mx-auto text-black">
@@ -461,12 +458,14 @@ export default function Main() {
 
       <section className="text-white body-font bg-black">
         <div className="container m-auto xl:max-w-6xl">
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-20
-          ">
+          <div
+            className="mx-8 md:mx-4 lg:mx-auto text-left py-20
+          "
+          >
             <div className="flex items-center space-x-4">
               <img
                 className="w-10 h-10 rounded-full"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQFWXlvbQ18_rQ/profile-displayphoto-shrink_100_100/0/1564757108379?e=1674691200&v=beta&t=oQprtdU9PhZ46K1orKFIc87dB57YboIAFGpcTFvVLnU"
+                src="/images/cm.jpeg"
                 alt=""
               />
               <div className="font-medium dark:text-white">
@@ -528,7 +527,6 @@ export default function Main() {
       <div className="bg-orange-500">
         <div className="container px-5 py-0.5 mx-auto"></div>
       </div>
-
 
       <section className="text-black body-font bg-white">
         <div className="container flex m-auto pt-8 md:flex-row flex-col">
