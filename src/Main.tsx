@@ -17,11 +17,11 @@ export default function Main() {
               <div className="mx-auto text-black mt-4">
                 <a
                   className="flex items-center text-[#592D0E] hover:text-violet-500"
-                  href="mailto:kat@km.design"
+                  href="http://cal.com/kat/30min"
                 >
                   {" "}
-                  Contact Kat
-                </a>
+                  Schedule Meeting
+                </a>{" "}
               </div>
             </div>
           </div>
@@ -356,6 +356,16 @@ export default function Main() {
                 href="https://twitter.com/avoiceandname"
               >
                 @avoiceandname
+              </a>
+            </p>
+          </div>
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
+            <p className="justify-center items-center flex">
+              <a
+                className="hover:text-blue-500  ml-2"
+                href="https://cal.com/kat"
+              >
+                cal.com/kat
               </a>
             </p>
           </div>
