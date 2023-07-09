@@ -30,7 +30,7 @@ export default function Main() {
         <div className="my-4 lg:my-16">
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-8 md:mx-4 lg:mx-0">
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="title-font font-medium text-lg text-black pb-2.5">
+              <h2 className="title-font font-medium text-lg text-[#592D0E] pb-2.5">
                 Lead Product Designer
               </h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-[#FECB8F] to-[#C65507] inline-flex mb-2"></div>
@@ -39,7 +39,7 @@ export default function Main() {
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="title-font font-medium text-lg text-black pb-2.5">
+              <h2 className="title-font font-medium text-lg text-[#592D0E] pb-2.5">
                 Founding Designer
               </h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-[#FECB8F] to-[#C65507] inline-flex mb-2"></div>
@@ -48,7 +48,7 @@ export default function Main() {
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="title-font font-medium text-lg text-black pb-2.5">
+              <h2 className="title-font font-medium text-lg text-[#592D0E] pb-2.5">
                 Design Director
               </h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-[#FECB8F] to-[#C65507] inline-flex mb-2"></div>
@@ -57,7 +57,7 @@ export default function Main() {
             </div>
 
             <div className="h-full flex flex-col items-left text-left">
-              <h2 className="title-font font-medium text-lg text-black pb-2.5">
+              <h2 className="title-font font-medium text-lg text-[#592D0E] pb-2.5">
                 Partner, Design
               </h2>
               <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-[#FECB8F] to-[#C65507] inline-flex mb-2"></div>
@@ -308,7 +308,7 @@ export default function Main() {
             </p>
 
             <a
-              className="text-sm font-bold hover:text-blue-400"
+              className="text-sm font-bold text-[#C65507] hover:text-[#F99117]"
               href="https://www.linkedin.com/in/millerkat/"
             >
               Read more recommendations on LinkedIn
@@ -317,25 +317,10 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="text-black body-font bg-[#FFF4EC]">
+      <section className="text-black body-font text-sm bg-[#FFF4EC]">
         <div className="container flex m-auto pt-8 md:flex-row flex-col">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
             <p className="justify-center items-center flex">
-              <svg
-                className="w-4 h-4 color-amber-500 group-hover:color-white"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="48"
-              >
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                <path d="M22 6l-10 7L2 6" />
-              </svg>{" "}
               <a
                 className="hover:text-blue-500  ml-2"
                 href="mailto:kat@km.design"
@@ -346,22 +331,6 @@ export default function Main() {
           </div>
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
             <p className="justify-center items-center flex">
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="48"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                <path d="M3 9h18" />
-                <path d="M9 21V9" />
-              </svg>{" "}
               <a
                 className="font-bold hover:text-blue-400 ml-2"
                 href="https://dribbble.com/kat"
@@ -372,23 +341,6 @@ export default function Main() {
           </div>
           <div className="mx-8 md:mx-4 lg:mx-auto text-left  py-2">
             <p className="justify-center items-center flex">
-              <svg
-                className="w-4 h-4 color-amber-500 group-hover:color-white"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="48"
-              >
-                <path
-                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
-                  fill="var(--geist-fill)"
-                />
-              </svg>{" "}
               <a
                 className="hover:text-blue-500  ml-2"
                 href="https://read.cv/katm"
@@ -399,20 +351,6 @@ export default function Main() {
           </div>
           <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
             <p className="justify-center items-center flex">
-              <svg
-                className="w-4 h-4 color-amber-500 group-hover:color-white"
-                fill="none"
-                height="24"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="48"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
-              </svg>{" "}
               <a
                 className="hover:text-blue-500  ml-2"
                 href="https://twitter.com/avoiceandname"
