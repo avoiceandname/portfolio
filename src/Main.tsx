@@ -349,7 +349,7 @@ export default function Main() {
               </a>
             </p>
           </div>
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
             <p className="justify-center items-center flex">
               <a
                 className="hover:text-blue-500  ml-2"
@@ -359,7 +359,7 @@ export default function Main() {
               </a>
             </p>
           </div>
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
             <p className="justify-center items-center flex">
               <a
                 className="hover:text-blue-500  ml-2"
