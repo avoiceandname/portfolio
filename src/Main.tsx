@@ -5,7 +5,7 @@ export default function Main() {
         <div className="flex flex-col lg:flex-row my-auto ">
           <div className="bg-[#FFF4EC] sm:bg-[#FFF4EC]"></div>
           <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-16 lg:my-auto flex flex-col">
-            <h1 className="mb-2 text-6xl font-bold tracking-tighter text-[#E2A174] lg:text-8xl md:text-7xl">
+            <h1 className="mb-2 text-9xl font-bold tracking-tighter text-[#E2A174] lg:text-8xl md:text-7xl">
               <span>Kat Miller</span>
             </h1>
             <div className="text-gray-500 dark:text-gray-400">
