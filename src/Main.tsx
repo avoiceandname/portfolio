@@ -193,10 +193,11 @@ export default function Main() {
                   Essay
                 </h4>
                 <h1 className="mb-8 md:mb-0 text-5xl font-bold tracking-tight leading-6 text-[#C9BA32] lg:text-8xl md:text-1xl ">
-                  <span>The In Between</span>
+                  <span>Resilience, discomfort, & advocacy</span>
                 </h1>
                 <h3 className="mb-0 pt-4 md:mb-0 text-md font-light text-white lg:text-3xl ">
-                  Resilience, discomfort, and advocacy in design & healthcare
+                  How healthcare environments and practioners have impacted my
+                  design craft
                 </h3>
                 <span className="mb-10 pt-4 md:mb-10 text-md font-light text-white lg:text-l ">
                   As designers, we have the unique privilege and responsibility
