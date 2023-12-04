@@ -3,20 +3,24 @@ export default function Main() {
     <div className="">
       <section className="text-black body-font bg-[#F49393]">
         <div className="m-auto py-12 md:py-0 content-center">
-          <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-16 lg:pl-16 mx-auto text-left ">
-              <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
-                <h1 className="mb-2 text-9xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">
+              <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
+                <h1 className="mb-2 text-8xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">
                   <span>Kat Miller</span>
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
                   <p className="text-md font-normal leading-normal text-[#804D4D]">
-                    Techstars-backed founder specializing in 0→1 life sciences
-                    and creator economy products, I blend innovation in device
-                    design with a passion for the unexpected. Championing small
-                    moments with big impacts, I'm dedicated to empowering
-                    creators and advancing life sciences through transformative
-                    technology
+                    Techstars-backed founder and principle designer, I partner
+                    with executive leaders in seed to growth stage startups. I
+                    specialize in defining, building, and shipping 0→1 products
+                    and brands, with a passion for life sciences and maker
+                    tools. My design practice unearths joy in the subtle,
+                    crafting impactful, lasting experiences.
+                  </p>
+                  <p className="text-md pt-4 font-normal leading-normal text-[#804D4D]">
+                    Currently building the future of 3D tools and digital twins
+                    at Matterport.
                   </p>
                   <div className="mx-auto text-black mt-4">
                     <a
@@ -26,8 +30,15 @@ export default function Main() {
                       {" "}
                       Schedule a Meeting
                     </a>{" "}
+                    <a
+                      className="flex items-center text-[#B85959] hover:text-[#217070]"
+                      href="https://www.linkedin.com/in/millerkat/"
+                    >
+                      {" "}
+                      DM on LinkedIn
+                    </a>{" "}
                   </div>
-                  <div className="mt-4 lg:mt-16">
+                  <div className="mt-4 lg:mt-8">
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pt-8 md:pt-4 lg:pt-0">
                       <div className="h-full flex flex-col items-left text-left">
                         <h2 className="title-font font-medium text-md text-[#217070] pb-2.5">
@@ -85,17 +96,65 @@ export default function Main() {
         </div>
       </section>
 
+      <section className="text-white body-font bg-white">
+        <div className="container m-auto xl:max-w-6xl">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
+            <div className="flex items-center space-x-4 py-6 ">
+              <img
+                className="w-10 h-10 rounded-full"
+                src="/images/falco.jpg"
+                alt=""
+              />
+              <div className="font-medium dark:text-black">
+                <div>
+                  <a href="https://www.linkedin.com/in/antonyfalco/">
+                    Antony Falco
+                  </a>
+                </div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                  CEO
+                </div>
+              </div>
+            </div>
+
+            <p className="text-left leading-tight text-2xl text-[#371802] lg:text-4xl  font-bold py-6">
+              "Kat{" "}
+              <span className="text-[#217070]">brings order to the chaos</span>{" "}
+              that characterizes all early project development when one must{" "}
+              <span className="text-[#F49393]">convert ideas</span> into a plan
+              of action."
+            </p>
+            <p className="text-left lg:leading-relaxed text-black pb-12">
+              Kat is a high-impact leader who moves effortlessly from strategy
+              to implementation. She combines a product designer's sense of how
+              aesthetics should serve function with a product owner's analytical
+              rigor. She brings order to the chaos that characterizes all early
+              project development when one must convert ideas into a plan of
+              action. A common thread in all Kat's endeavors is iterative
+              research -- she tests hypotheses with her suspected audiences,
+              learns their needs, trims away anything not needed for the initial
+              personae and then retests. But none of this compares to Kat's
+              character and strength. She meets even the most enormous
+              challenges with creativity and optimism. She sets an example not
+              just for her teammates but for the people, like me, who have known
+              her over the years. You build great teams around talent but you
+              build great companies around character.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="text-black body-font bg-[#FFF4EC]">
         <div className="container m-auto py-12 md:py-28">
           <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className=" mx-auto text-left">
-              <h4 className="mb-2 font-bold uppercase text-black lg:text-xs md:text-xxs">
+              <h4 className="mb-2 font-bold uppercase text-black lg:text-xs text-[12px]">
                 Case Study
               </h4>
               <h1 className="mb-8 md:mb-10 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
                 <span>Everything changes when fingers hit glass.</span>
               </h1>
-              <h2 className="mb-8 md:mb-10 text-l font-light text-black lg:text-1xl ">
+              <h2 className="mb-8 md:mb-10 text-l text-black lg:text-2xl lg:font-light ">
                 Kinetic was a Techstars-backed prototyping platform that helped
                 product teams design, build and ship mobile experiences with
                 over 10,400 beta signups.
@@ -135,50 +194,45 @@ export default function Main() {
       <section className="text-white body-font bg-white">
         <div className="container m-auto xl:max-w-6xl">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
-            <div className="flex items-center space-x-4 py-6 ">
+            <div className="flex items-center space-x-4 py-6">
               <img
                 className="w-10 h-10 rounded-full"
-                src="/images/falco.jpg"
+                src="/images/hovey.jpg"
                 alt=""
               />
               <div className="font-medium dark:text-black">
                 <div>
-                  <a href="https://www.linkedin.com/in/antonyfalco/">
-                    Antony Falco
+                  <a href="https://www.linkedin.com/in/lisahovey/">
+                    Lisa Hovey
                   </a>
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
-                  CEO
+                  Chief of Staff
                 </div>
               </div>
             </div>
-
-            <p className="text-left leading-tight text-2xl text-[#371802] lg:text-4xl  font-bold py-6">
-              "Kat{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
-                brings order to the chaos
-              </span>{" "}
-              that characterizes all early project development when one must{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
-                convert ideas
-              </span>{" "}
-              into a plan of action."
+            <p className="text-left leading-tight text-2xl  text-[#371802] lg:text-4xl font-bold py-6">
+              "...truly the{" "}
+              <span className="text-[#F99117]">most strategic</span> and{" "}
+              <span className="text-[#C65507]">systems-focused</span> designer
+              I've ever worked with."
             </p>
-            <p className="text-left leading-relaxed text-black pb-12">
-              Kat is a high-impact leader who moves effortlessly from strategy
-              to implementation. She combines a product designer's sense of how
-              aesthetics should serve function with a product owner's analytical
-              rigor. She brings order to the chaos that characterizes all early
-              project development when one must convert ideas into a plan of
-              action. A common thread in all Kat's endeavors is iterative
-              research -- she tests hypotheses with her suspected audiences,
-              learns their needs, trims away anything not needed for the initial
-              personae and then retests. But none of this compares to Kat's
-              character and strength. She meets even the most enormous
-              challenges with creativity and optimism. She sets an example not
-              just for her teammates but for the people, like me, who have known
-              her over the years. You build great teams around talent but you
-              build great companies around character.
+            <p className="text-left lg:leading-relaxed text-black pb-12">
+              I sincerely hope I get to partner with Kat again in the future.
+              Kat is such an incredible human and such a great leader for any
+              team. She is so versatile, collaborative, intuitive, strategic,
+              and thoughtful. I've worked with Kat in several areas from
+              employee engagement and company communications to investor
+              relations and strategic storytelling to overall design systems and
+              UX. She approached each project in the same holistic way and
+              ensured the right people were involved to get to the best
+              solution. She is detail oriented, solutions-focused, passionate,
+              and always comes to the table with a positive attitude. She is
+              truly the most strategic and systems-focused designer I've ever
+              worked with. Not only is she a very talented and creative
+              designer, but the way she weaves in design thinking, design
+              research, and her ability to bring teams together to solve a
+              problem, she acts as an incredible "glue" for any org.
             </p>
           </div>
         </div>
@@ -186,13 +240,13 @@ export default function Main() {
 
       <section className="text-black body-font bg-[#3041D3]">
         <div className="m-auto py-12 md:py-0 content-center">
-          <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
-              <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
-                <h4 className="mb-2 font-bold uppercase text-white lg:text-xs md:text-xxs">
+              <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
+                <h4 className="mb-2 font-bold uppercase text-white lg:text-xs text-[12px]">
                   Essay
                 </h4>
-                <h1 className="mb-8 md:mb-0 text-5xl font-bold tracking-tight leading-6 text-[#C9BA32] lg:text-8xl md:text-1xl ">
+                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#C9BA32] lg:text-8xl md:text-1xl ">
                   <span>Resilience, discomfort, & advocacy</span>
                 </h1>
                 <h3 className="mb-0 pt-4 md:mb-0 text-md font-light text-white lg:text-3xl ">
@@ -207,8 +261,8 @@ export default function Main() {
                   hospital - subtle, yet profoundly impactful.
                 </span>
                 <span className="text-black ">
-                  <a href="/kinetic">
-                    <button className="group mt-1 font-semibold inline-flex items-center bg-[#C9BA32] text-[#3041D3]  border border-2 border-[#C9BA32] py-4 px-5 rounded hover:bg-[#FFF4EC] hover:text-black">
+                  <a href="/craft">
+                    <button className="group mt-1 font-semibold inline-flex items-center bg-[#C9BA32] text-[#3041D3]  border border-2 border-[#C9BA32] py-4 px-5 rounded hover:bg-[#3041D3] hover:text-white">
                       <span className="mr-2">Read the Essay</span>
                       <svg
                         className="w-4 h-4 color-[#FFF4EC] group-hover:color-white"
@@ -242,47 +296,34 @@ export default function Main() {
             <div className="flex items-center space-x-4 py-6">
               <img
                 className="w-10 h-10 rounded-full"
-                src="/images/hovey.jpg"
+                src="/images/chen.jpeg"
                 alt=""
               />
               <div className="font-medium dark:text-black">
                 <div>
-                  <a href="https://www.linkedin.com/in/lisahovey/">
-                    Lisa Hovey
+                  <a href="https://www.linkedin.com/in/cheneric86/">
+                    Eric Chen
                   </a>
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
-                  Chief of Staff
+                  Director of People Ops
                 </div>
               </div>
             </div>
-            <p className="text-left leading-tight text-2xl  text-[#371802] lg:text-4xl font-bold py-6">
-              "...truly the{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
-                most strategic
-              </span>{" "}
-              and{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
-                systems-focused
-              </span>{" "}
-              designer I've ever worked with."
+            <p className="text-left leading-relaxed text-[#371802] text-2xl lg:text-4xl md:text-2xl font-bold py-6">
+              "Kat is a <span className="text-[#3041D3]">joy</span> to work
+              with!"
             </p>
-            <p className="text-left leading-relaxed text-black pb-12">
-              I sincerely hope I get to partner with Kat again in the future.
-              Kat is such an incredible human and such a great leader for any
-              team. She is so versatile, collaborative, intuitive, strategic,
-              and thoughtful. I've worked with Kat in several areas from
-              employee engagement and company communications to investor
-              relations and strategic storytelling to overall design systems and
-              UX. She approached each project in the same holistic way and
-              ensured the right people were involved to get to the best
-              solution. She is detail oriented, solutions-focused, passionate,
-              and always comes to the table with a positive attitude. She is
-              truly the most strategic and systems-focused designer I've ever
-              worked with. Not only is she a very talented and creative
-              designer, but the way she weaves in design thinking, design
-              research, and her ability to bring teams together to solve a
-              problem, she acts as an incredible "glue" for any org.
+            <p className="text-left lg:leading-relaxed text-black pb-12">
+              Kat's visual design prowess and passion for implementing design as
+              a practice really up-leveled the couple of projects that we worked
+              on together. However, what stuck out to me most is her ability to
+              listen, ask the right questions, and build a case for better
+              design decisions with her stakeholders. In all of my interactions
+              with Kat, I left those conversations feeling like the work product
+              or process was significantly improved. Kat is well-qualified to
+              lead a design practice and be a trusted advisor to senior leaders.
+              She's a joy to work with!
             </p>
           </div>
         </div>
@@ -290,23 +331,25 @@ export default function Main() {
 
       <section className="text-black body-font bg-[#3CA8F3]">
         <div className="m-auto py-12 md:py-0 content-center">
-          <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
-              <div className="my-8 mx-16 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
-                <h4 className="mb-2 font-bold uppercase text-white lg:text-xs md:text-xxs">
+              <div className="my-8 mx-4 lg:mx-0 lg:my-auto flex flex-col">
+                <h4 className="mb-2 font-bold uppercase text-black lg:text-xs text-[12px]">
                   Case Study
                 </h4>
-                <h1 className="mb-8 md:mb-0 text-5xl font-bold tracking-tight leading-6 text-[#AF4801] lg:text-8xl md:text-1xl ">
-                  <span>Building a developer-native brand</span>
+                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#AF4801] lg:text-8xl md:text-1xl ">
+                  <span>Crafting a developer-native brand</span>
                 </h1>
-                <h3 className="mb-10 pt-4 md:mb-10 text-md font-light text-white lg:text-l ">
-                  Building an authentic, developer-native brand and design
-                  system for a YC & NEO backed startup.
+                <h3 className="mb-10 pt-4 md:mb-10 text-md text-black lg:text-2xl lg:font-light ">
+                  Created the brand, design system, and inaugural self-serve
+                  product for a developer-centric startup backed by YC and NEO,
+                  setting the stage for its distinctive market presence and user
+                  experience.
                 </h3>
                 <span className="text-black ">
-                  <a href="/kinetic">
-                    <button className="group mt-1 font-semibold inline-flex items-center bg-[#AF4801] text-[#3CA8F3]  border border-2 border-[#AF4801] py-4 px-5 rounded hover:bg-[#3CA8F3] hover:text-black">
-                      <span className="mr-2">Read the Case Study</span>
+                  <a href="http://cal.com/kat/30min">
+                    <button className="group mt-1 font-semibold inline-flex items-center bg-[#AF4801] text-[#94D2FE]  border border-2 border-[#AF4801] py-4 px-5 rounded hover:bg-[#3CA8F3] hover:text-black">
+                      <span className="mr-2">Schedule a Walkthrough</span>
                       <svg
                         className="w-4 h-4 color-[#FFF4EC] group-hover:color-white"
                         fill="none"
@@ -329,48 +372,6 @@ export default function Main() {
             </div>
 
             <div className="h-32 md:h-auto bg-cover bg-center flex-1 m-0 bg-[url('/images/dunes.jpg')]" />
-          </div>
-        </div>
-      </section>
-
-      <section className="text-white body-font bg-white">
-        <div className="container m-auto xl:max-w-6xl">
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
-            <div className="flex items-center space-x-4 py-6">
-              <img
-                className="w-10 h-10 rounded-full"
-                src="/images/chen.jpeg"
-                alt=""
-              />
-              <div className="font-medium dark:text-black">
-                <div>
-                  <a href="https://www.linkedin.com/in/cheneric86/">
-                    Eric Chen
-                  </a>
-                </div>
-                <div className="text-sm text-gray-500 dark:text-gray-400">
-                  Director of People Ops
-                </div>
-              </div>
-            </div>
-            <p className="text-left leading-relaxed text-[#371802] text-2xl lg:text-4xl md:text-2xl font-bold py-6">
-              "Kat is a{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
-                joy
-              </span>{" "}
-              to work with!"
-            </p>
-            <p className="text-left leading-relaxed text-black pb-12">
-              Kat's visual design prowess and passion for implementing design as
-              a practice really up-leveled the couple of projects that we worked
-              on together. However, what stuck out to me most is her ability to
-              listen, ask the right questions, and build a case for better
-              design decisions with her stakeholders. In all of my interactions
-              with Kat, I left those conversations feeling like the work product
-              or process was significantly improved. Kat is well-qualified to
-              lead a design practice and be a trusted advisor to senior leaders.
-              She's a joy to work with!
-            </p>
           </div>
         </div>
       </section>
@@ -400,12 +401,12 @@ export default function Main() {
             </div>
             <p className="text-left leading-tight text-2xl text-[#371802] lg:text-4xl font-bold py-6">
               "Kat is a{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F99117] to-[#C65507]">
+              <span className="text-[#AF4801]">
                 great designer, art director, and mentor.
               </span>
               "
             </p>
-            <p className="text-left leading-relaxed text-black pb-8">
+            <p className="text-left lg:leading-relaxed text-black pb-8">
               Kat Miller is a great designer, art director, and mentor. I’ve
               worked with her for several years in both an agency setting and as
               a freelancer. I’ve had the pleasure of working with her on several
@@ -443,16 +444,7 @@ export default function Main() {
               </a>
             </p>
           </div>
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
-            <p className="justify-center items-center flex">
-              <a
-                className="font-bold hover:text-blue-400 ml-2"
-                href="https://dribbble.com/kat"
-              >
-                dribbble.com/kat
-              </a>
-            </p>
-          </div>
+
           <div className="mx-8 md:mx-4 lg:mx-auto text-left  py-2">
             <p className="justify-center items-center flex">
               <a
