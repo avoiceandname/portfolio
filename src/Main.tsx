@@ -11,7 +11,7 @@ export default function Main() {
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
                   <p className="text-md font-normal leading-normal text-[#804D4D]">
-                    Techstars-backed founder and principle designer, I partner
+                    Techstars-backed founder and principal designer, I partner
                     with executive leaders in seed to growth stage startups. I
                     specialize in defining, building, and shipping 0→1 products
                     and brands, with a passion for life sciences and maker
