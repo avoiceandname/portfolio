@@ -292,7 +292,7 @@ export default function Main() {
 
       <section className="text-white body-font bg-white">
         <div className="container m-auto xl:max-w-6xl">
-          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8">
             <div className="flex items-center space-x-4 py-6">
               <img
                 className="w-10 h-10 rounded-full"
@@ -314,7 +314,7 @@ export default function Main() {
               "Kat is a <span className="text-[#3041D3]">joy</span> to work
               with!"
             </p>
-            <p className="text-left lg:leading-relaxed text-black pb-12">
+            <p className="text-left lg:leading-relaxed text-black pb-8">
               Kat's visual design prowess and passion for implementing design as
               a practice really up-leveled the couple of projects that we worked
               on together. However, what stuck out to me most is her ability to
@@ -378,10 +378,7 @@ export default function Main() {
 
       <section className="text-white body-font bg-white">
         <div className="container m-auto xl:max-w-6xl">
-          <div
-            className="mx-8 md:mx-4 lg:mx-auto text-left py-20
-          "
-          >
+          <div className="mx-8 md:mx-4 lg:mx-auto text-left py-12 lg:py-12">
             <div className="flex items-center space-x-4">
               <img
                 className="w-10 h-10 rounded-full"
