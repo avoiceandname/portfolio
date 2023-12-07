@@ -114,9 +114,11 @@ export default function Contact() {
                 reinforcing that design is not just about durability or
                 functionality of a moment, but the true impact lies in the
                 environments and systems we craft. With every service, product,
-                brand, and moment we design, we have a choice—do we aim for the
-                status quo or do we seek out opportunities to elevate unexpected
-                moments with joy, warmth, and humanity?
+                brand, and moment we design, we have a choice—
+                <span className="font-bold">
+                  do we aim for the status quo or do we seek out opportunities
+                  to elevate unexpected moments with joy, warmth, and humanity?
+                </span>
               </p>
             </div>
           </div>
