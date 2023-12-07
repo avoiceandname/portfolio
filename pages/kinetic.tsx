@@ -1120,9 +1120,6 @@ export default function Contact() {
       <section className="text-white body-font bg-black">
         <div className="container px-5 pt-12 pb-24 mx-auto ">
           <div className="text-left">
-            <p className="text-left font-light lg:text-md text-md pb-8">
-              Reflection
-            </p>
             <div className="text-left">
               <svg
                 fill="none"
@@ -1167,14 +1164,51 @@ export default function Contact() {
                 products with current UX/UI and accessibility practices,
                 allowing them to engage meaningfully with their customers.{" "}
               </p>
-              <div className="mx-auto pt-12 text-white ">
-                <a href="mailto:kat@km.design">
-                  {" "}
-                  <button className="font-semibold inline-flex items-center bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500 to-black border border-1 border-gray-800 py-4 px-5 rounded hover:bg-red ">
-                    <span>Contact Kat</span>
-                  </button>
-                </a>
-              </div>
+              <section className="text-black body-font text-sm bg-[#FFF4EC]">
+                <div className="container flex m-auto pt-8 md:flex-row flex-col">
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+                    <p className="justify-center items-center flex">
+                      <a
+                        className="hover:text-blue-500  ml-2"
+                        href="mailto:kat@km.design"
+                      >
+                        kat@km.design
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left  py-2">
+                    <p className="justify-center items-center flex">
+                      <a
+                        className="hover:text-blue-500  ml-2"
+                        href="https://read.cv/katm"
+                      >
+                        read.cv/katm
+                      </a>
+                    </p>
+                  </div>
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+                    <p className="justify-center items-center flex">
+                      <a
+                        className="hover:text-blue-500  ml-2"
+                        href="https://twitter.com/avoiceandname"
+                      >
+                        @avoiceandname
+                      </a>
+                    </p>
+                  </div>
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
+                    <p className="justify-center items-center flex">
+                      <a
+                        className="hover:text-blue-500  ml-2"
+                        href="https://cal.com/kat"
+                      >
+                        cal.com/kat
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </div>

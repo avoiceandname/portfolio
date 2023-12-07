@@ -6,22 +6,21 @@ export default function Main() {
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-16 lg:pl-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
-                <h1 className="mb-2 text-8xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">
+                <h1 className="mb-0 text-8xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">
                   <span>Kat Miller</span>
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
+                  <p className="text-2xl font-light leading-normal text-[#804D4D] mb-4">
+                    Product Designer
+                  </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D]">
-                    Techstars-backed founder and principal designer, I partner
-                    with executive leaders in seed to growth stage startups. I
-                    specialize in defining, building, and shipping 0→1 products
-                    and brands, with a passion for life sciences and maker
-                    tools. My design practice unearths joy in the subtle,
-                    crafting impactful, lasting experiences.
+                    I partner with executive leaders at seed to growth stage
+                    startups and specialize in defining, building, and shipping
+                    0→1 products and brands—with a passion for life sciences and
+                    maker tools. My design practice unearths joy in the subtle,
+                    crafting impactful, lasting experiences.{" "}
                   </p>
-                  <p className="text-md pt-4 font-normal leading-normal text-[#804D4D]">
-                    Currently building the future of 3D tools and digital twins
-                    at Matterport.
-                  </p>
+
                   <div className="mx-auto text-black mt-4">
                     <a
                       className="flex items-center text-[#B85959] hover:text-[#217070]"
@@ -97,7 +96,7 @@ export default function Main() {
       </section>
 
       <section className="text-white body-font bg-white">
-        <div className="container m-auto xl:max-w-6xl">
+        <div className="container m-auto xl:max-w-4xl">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
             <div className="flex items-center space-x-4 py-6 ">
               <img
@@ -192,7 +191,7 @@ export default function Main() {
       </section>
 
       <section className="text-white body-font bg-white">
-        <div className="container m-auto xl:max-w-6xl">
+        <div className="container m-auto xl:max-w-4xl">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8 lg:py-12">
             <div className="flex items-center space-x-4 py-6">
               <img
@@ -291,7 +290,7 @@ export default function Main() {
       </section>
 
       <section className="text-white body-font bg-white">
-        <div className="container m-auto xl:max-w-6xl">
+        <div className="container m-auto xl:max-w-4xl">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-8">
             <div className="flex items-center space-x-4 py-6">
               <img
@@ -377,7 +376,7 @@ export default function Main() {
       </section>
 
       <section className="text-white body-font bg-white">
-        <div className="container m-auto xl:max-w-6xl">
+        <div className="container m-auto xl:max-w-4xl">
           <div className="mx-8 md:mx-4 lg:mx-auto text-left py-12 lg:py-12">
             <div className="flex items-center space-x-4">
               <img
