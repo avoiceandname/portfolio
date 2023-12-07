@@ -15,6 +15,30 @@ export default function Contact() {
         <div className="container px-5 mx-auto grid gap-10 grid-cols-1 md:grid-cols-2">
           <div className="container px-5 mx-auto">
             <div className="text-left mx-auto">
+              <p className="pb-6">
+                <a
+                  className="hover:bg-[#C9BA32]  ml-2"
+                  href="https://km.design"
+                >
+                  <svg
+                    className="back"
+                    data-testid="geist-icon"
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    style={{ color: "#ffffff" }}
+                  >
+                    <path d="M19 12H5" />
+                    <path d="M12 19l-7-7 7-7" />
+                  </svg>
+                </a>
+              </p>
               <img
                 src="/images/kinetic-small-logo.png"
                 alt=""
@@ -1117,46 +1141,25 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="text-white body-font bg-black">
+      <section className="text-white body-font bg-white">
         <div className="container px-5 pt-12 pb-24 mx-auto ">
           <div className="text-left">
             <div className="text-left">
-              <svg
-                fill="none"
-                height="48"
-                shapeRendering="geometricPrecision"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                width="48"
-                style={{ color: "#fff" }}
-              >
-                <path d="M17 18a5 5 0 00-10 0" />
-                <path d="M12 2v7" />
-                <path d="M4.22 10.22l1.42 1.42" />
-                <path d="M1 18h2" />
-                <path d="M21 18h2" />
-                <path d="M18.36 11.64l1.42-1.42" />
-                <path d="M23 22H1" />
-                <path d="M8 6l4-4 4 4" />
-              </svg>
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl text-3xl font-bold py-6 ">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-5xl text-3xl font-bold py-6 text-black">
                 From Sunset to{" "}
                 <span className="text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-pink-500 via-red-500 to-yellow-500">
                   Sunrise
                 </span>
               </p>
 
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md py-2 md:py-4">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md py-2 text-black md:py-4">
                 My journey with Kinetic allowed me to graduate to a new level of
                 product design and management capabilities. Building products
                 for Fortune-teir companies like Samsung, Intel, HTC, T-Mobile,
                 AT&T, Dell, etc., dominated my career until that point.{" "}
               </p>
 
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l md:text-md">
+              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l text-black md:text-md">
                 After we shut Kinetic down, I spent the next five years helping
                 other early-stage founders with end-to-end mobile product design
                 and management services that increased engagement, retention,
@@ -1164,9 +1167,9 @@ export default function Contact() {
                 products with current UX/UI and accessibility practices,
                 allowing them to engage meaningfully with their customers.{" "}
               </p>
-              <section className="text-black body-font text-sm bg-[#FFF4EC]">
-                <div className="container flex m-auto pt-8 md:flex-row flex-col">
-                  <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+              <section className="text-black body-font text-sm bg-white">
+                <div className="container flex m-auto pt-24 md:flex-row flex-col">
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left text-black py-2">
                     <p className="justify-center items-center flex">
                       <a
                         className="hover:text-blue-500  ml-2"
@@ -1177,7 +1180,7 @@ export default function Contact() {
                     </p>
                   </div>
 
-                  <div className="mx-8 md:mx-4 lg:mx-auto text-left  py-2">
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left text-black py-2">
                     <p className="justify-center items-center flex">
                       <a
                         className="hover:text-blue-500  ml-2"
@@ -1187,7 +1190,7 @@ export default function Contact() {
                       </a>
                     </p>
                   </div>
-                  <div className="mx-8 md:mx-4 lg:mx-auto text-left py-2">
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left text-black py-2">
                     <p className="justify-center items-center flex">
                       <a
                         className="hover:text-blue-500  ml-2"
@@ -1197,7 +1200,7 @@ export default function Contact() {
                       </a>
                     </p>
                   </div>
-                  <div className="mx-8 md:mx-4 lg:mx-auto text-left pb-12 py-2">
+                  <div className="mx-8 md:mx-4 lg:mx-auto text-left text-black py-2">
                     <p className="justify-center items-center flex">
                       <a
                         className="hover:text-blue-500  ml-2"

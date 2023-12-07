@@ -15,6 +15,30 @@ export default function Contact() {
           <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
+                <p className="pb-6">
+                  <a
+                    className="hover:bg-[#C9BA32]  ml-2"
+                    href="https://km.design"
+                  >
+                    <svg
+                      className="back"
+                      data-testid="geist-icon"
+                      fill="none"
+                      height="24"
+                      shape-rendering="geometricPrecision"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      style={{ color: "#ffffff" }}
+                    >
+                      <path d="M19 12H5" />
+                      <path d="M12 19l-7-7 7-7" />
+                    </svg>
+                  </a>
+                </p>
                 <p className="mb-2 font-bold uppercase text-white lg:text-sm text-[12px]">
                   Essay
                 </p>
