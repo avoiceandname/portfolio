@@ -119,7 +119,7 @@ export default function Main() {
                 src="/images/falco.jpg"
                 alt=""
               />
-              <div className="font-medium dark:text-black">
+              <div className="font-medium text-black">
                 <div>
                   <a href="https://www.linkedin.com/in/antonyfalco/">
                     Antony Falco
@@ -214,7 +214,7 @@ export default function Main() {
                 src="/images/hovey.jpg"
                 alt=""
               />
-              <div className="font-medium dark:text-black">
+              <div className="font-medium text-black">
                 <div>
                   <a href="https://www.linkedin.com/in/lisahovey/">
                     Lisa Hovey
@@ -313,7 +313,7 @@ export default function Main() {
                 src="/images/chen.jpeg"
                 alt=""
               />
-              <div className="font-medium dark:text-black">
+              <div className="font-medium text-black">
                 <div>
                   <a href="https://www.linkedin.com/in/cheneric86/">
                     Eric Chen
@@ -399,7 +399,7 @@ export default function Main() {
                 src="/images/cm.jpeg"
                 alt=""
               />
-              <div className="font-medium dark:text-black">
+              <div className="font-medium text-black">
                 <div>
                   <a href="https://www.linkedin.com/in/beccacm/">
                     Becca Charlier-Matthews
