@@ -2,7 +2,7 @@ export default function Main() {
   return (
     <div className="">
       <section className="text-black body-font bg-[#F49393]">
-        <div className="m-auto py-12 md:py-0 content-center">
+        <div className="m-auto lg:py-12 md:py-0 content-center">
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-16 lg:pl-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
@@ -10,17 +10,26 @@ export default function Main() {
                   <span>Kat Miller</span>
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
-                  <p className="text-2xl font-light leading-normal text-[#804D4D] mb-4">
-                    Product Designer
+                  <p className="text-2xl font-light lg:leading-normal md:leading-tight text-[#804D4D] mb-4">
+                    Product Designer specializing in 0-1 products and brands.
                   </p>
-                  <p className="text-md font-normal leading-normal text-[#804D4D]">
-                    I partner with executive leaders at seed to growth stage
-                    startups and specialize in defining, building, and shipping
-                    0→1 products and brands—with a passion for life sciences and
-                    maker tools. My design practice unearths joy in the subtle,
-                    crafting impactful, lasting experiences.{" "}
+                  <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
+                    Skilled in navigating ambiguity and working autonomously, I
+                    collaborate across organizations to create and ship
+                    meaningful customer experiences.{" "}
                   </p>
 
+                  <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
+                    I have a history of partnering with and supporting executive
+                    leaders in early to growth-stage companies, especially in
+                    life sciences and maker tools. I lead with authenticity and
+                    a solution-driven mindset, thriving in uncertain
+                    environments.
+                  </p>
+                  <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
+                    Advocate for embracing unexpected joy. Champion of tiny
+                    moments that make a big impact.{" "}
+                  </p>
                   <div className="mx-auto text-black mt-4">
                     <a
                       className="flex items-center text-[#B85959] hover:text-[#217070]"
@@ -60,7 +69,9 @@ export default function Main() {
                         <h3 className="text-[#B85959] text-sm font-bold">
                           Tiny Creative
                         </h3>
-                        <p className="text-xs text-[#B85959]">2015-2023</p>
+                        <p className="text-xs text-[#B85959] font-medium">
+                          2015-2023
+                        </p>
                       </div>
 
                       <div className="h-full flex flex-col items-left text-left">
@@ -71,7 +82,9 @@ export default function Main() {
                         <h3 className="text-[#B85959] text-sm font-bold">
                           4G Clinical
                         </h3>
-                        <p className="text-xs text-[#B85959]">2022-2022</p>
+                        <p className="text-xs text-[#B85959] font-medium">
+                          2022-2022
+                        </p>
                       </div>
 
                       <div className="h-full flex flex-col items-left text-left">
@@ -80,9 +93,11 @@ export default function Main() {
                         </h2>
                         <div className="w-9 h-0.5 rounded-full bg-gradient-to-r from-[#B85959] to-[#6F9D9D] inline-flex mb-2"></div>
                         <h3 className="text-[#B85959] text-sm font-bold">
-                          Kinetic
+                          Kinetic (Stand In)
                         </h3>
-                        <p className="text-xs text-[#B85959]">2013-2025</p>
+                        <p className="text-xs text-[#B85959] font-medium">
+                          2013-2025
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -238,9 +253,9 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-[#3041D3]">
-        <div className="m-auto py-12 md:py-0 content-center">
+        <div className="m-auto lg:py-12 md:py-0 content-center">
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+            <div className="py-12 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <h4 className="mb-2 font-bold uppercase text-white lg:text-xs text-[12px]">
                   Essay
@@ -329,9 +344,9 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-[#3CA8F3]">
-        <div className="m-auto py-12 md:py-0 content-center">
+        <div className="m-auto lg:py-12 md:py-0 content-center">
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+            <div className="py-12 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <h4 className="mb-2 font-bold uppercase text-black lg:text-xs text-[12px]">
                   Case Study
