@@ -3,7 +3,7 @@ export default function Main() {
     <div className="">
       <section className="text-black body-font bg-[#F49393]">
         <div className="m-auto py-12 md:py-0 content-center">
-          <div className="mx-auto  grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-16 lg:pl-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col mr-4">
                 <h1 className="mb-0 text-8xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">

@@ -1152,20 +1152,13 @@ export default function Contact() {
                 </span>
               </p>
 
-              <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md py-2 text-black md:py-4">
-                My journey with Kinetic allowed me to graduate to a new level of
-                product design and management capabilities. Building products
-                for Fortune-teir companies like Samsung, Intel, HTC, T-Mobile,
-                AT&T, Dell, etc., dominated my career until that point.{" "}
-              </p>
-
               <p className="text-left leading-relaxed xl:w-3/4 lg:w-3/4  lg:text-l text-black md:text-md">
-                After we shut Kinetic down, I spent the next five years helping
-                other early-stage founders with end-to-end mobile product design
-                and management services that increased engagement, retention,
-                and product-market fit. I helped teams modernize shipped
-                products with current UX/UI and accessibility practices,
-                allowing them to engage meaningfully with their customers.{" "}
+                After we shut Kinetic down, I spent the next few years as a
+                fractional founding designer where I supported executive leaders
+                at seed to growth stage companies. My work specialized in
+                solving product design and management challenges, crafting
+                engaging investor relations with strategic storytelling, and
+                building brands.{" "}
               </p>
               <section className="text-black body-font text-sm bg-white">
                 <div className="container flex m-auto pt-24 md:flex-row flex-col">

@@ -11,9 +11,9 @@ export default function Contact() {
       </Head>
       <Header />
       <section className="text-black body-font bg-[#3041D3]">
-        <div className="m-auto lg:py-12 md:py-0 content-center">
-          <div className="mx-0 md:mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+        <div className="m-auto py-12 md:py-0 sm:py-0 content-center">
+          <div className="mx-ai md:mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="pl-4 md:py-0 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <p className="pb-6">
                   <a
@@ -42,7 +42,7 @@ export default function Contact() {
                 <p className="mb-2 font-bold uppercase text-white lg:text-sm text-[12px]">
                   Essay
                 </p>
-                <h1 className="lg:mb-2 md:mb-0 text-5xl font-bold tracking-tight md:leading-6 text-[#C9BA32] lg:text-8xl md:text-8xl ">
+                <h1 className="lg:mb-2 md:mb-0 text-5xl font-bold tracking-tight text-[#C9BA32] lg:text-8xl md:text-8xl ">
                   <span>Resilience, discomfort, & advocacy</span>
                 </h1>
                 <h3 className="mb-0 pt-4 md:mb-0 text-2xl font-light text-white lg:text-3xl ">
