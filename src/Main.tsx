@@ -2,15 +2,15 @@ export default function Main() {
   return (
     <div className="">
       <section className="text-black body-font bg-[#F49393]">
-        <div className="m-auto lg:py-12 md:py-0 content-center">
-          <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="m-auto py-12 md:py-0 content-center">
+          <div className="mx-auto  grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-16 lg:pl-16 mx-auto text-left ">
-              <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
+              <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col mr-4">
                 <h1 className="mb-0 text-8xl font-bold tracking-tighter text-[#217070] lg:text-8xl md:text-7xl">
                   <span>Kat Miller</span>
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
-                  <p className="text-2xl font-light lg:leading-normal md:leading-tight text-[#804D4D] mb-4">
+                  <p className="text-2xl font-light leading-normal text-[#804D4D] mb-4">
                     Product Designer specializing in 0-1 products and brands.
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
@@ -253,9 +253,9 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-[#3041D3]">
-        <div className="m-auto lg:py-12 md:py-0 content-center">
+        <div className="m-auto py-12 md:py-0 content-center">
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-12 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <h4 className="mb-2 font-bold uppercase text-white lg:text-xs text-[12px]">
                   Essay
@@ -344,9 +344,9 @@ export default function Main() {
       </section>
 
       <section className="text-black body-font bg-[#3CA8F3]">
-        <div className="m-auto lg:py-12 md:py-0 content-center">
+        <div className="m-auto py-12 md:py-0 content-center">
           <div className="mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-12 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <h4 className="mb-2 font-bold uppercase text-black lg:text-xs text-[12px]">
                   Case Study

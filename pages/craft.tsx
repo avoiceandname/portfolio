@@ -11,10 +11,10 @@ export default function Contact() {
       </Head>
       <Header />
       <section className="text-black body-font bg-[#3041D3]">
-        <div className="lg:py-12 md:py-0 content-center">
+        <div className="m-auto lg:py-12 md:py-0 content-center">
           <div className="mx-0 md:mx-0 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-0 text-left ">
-              <div className="my-8 mx-2 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
+            <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
+              <div className="my-8 mx-8 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <p className="pb-6">
                   <a
                     className="hover:bg-[#C9BA32]  ml-2"
@@ -110,7 +110,7 @@ export default function Contact() {
       </section>
 
       <section className="text-white body-font bg-[#3041D3]">
-        <div className="container px-5 py-16 pb-24 mx-auto">
+        <div className="container px-5 py-12 pb-24 mx-auto">
           <div className="text-left">
             <div className="text-left">
               <p className="text-left xl:w-3/4 lg:w-3/4 lg:text-5xl text-3xl font-light py-6">
@@ -149,10 +149,10 @@ export default function Contact() {
         </div>
       </section>
       <section className="text-white body-font bg-white">
-        <div className="container px-5 lg:py-12 pb-24 mx-auto">
+        <div className="container px-5 py-12 pb-24 mx-auto">
           <div className="text-left">
             <div className="text-left">
-              <div className="mx-0 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
+              <div className="mx-8 md:mx-4 lg:mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
                 <div className="h-32 md:h-auto bg-cover bg-center flex-1 m-0 bg-[url('/images/burst.jpg')]" />
                 <span className="py-6">
                   <p className="text-left leading-relaxed py-12 xl:w-3/4 lg:w-3/4 text-black lg:text-l md:text-md">
