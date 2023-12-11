@@ -14,17 +14,18 @@ export default function Main() {
                     Product Designer specializing in 0-1 products and brands.
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    Skilled in navigating ambiguity and working autonomously, I
-                    collaborate across organizations to create and ship
-                    meaningful customer experiences.{" "}
+                    I have a history of partnering with and supporting executive
+                    leaders in early to growth-stage companies, with a passion
+                    for life sciences and maker tools.{" "}
                   </p>
 
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    I have a history of partnering with and supporting executive
-                    leaders in early to growth-stage companies, especially in
-                    life sciences and maker tools. I lead with authenticity and
-                    a solution-driven mindset, thriving in uncertain
-                    environments.
+                    Experienced in navigating ambiguity, I’m skilled at both
+                    autonomous work and bridging cross-functional teams,
+                    ensuring the delivery of customer experiences that are
+                    impactful and memorable. Grounded in research, prototyping,
+                    and relationship building, I specialize in designing and
+                    streamlining complex systems that emphasize simplicity.
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
                     Advocate for embracing unexpected joy. Champion of tiny
