@@ -14,9 +14,9 @@ export default function Main() {
                     Product Designer
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    I have a history of partnering with and supporting executive
-                    leaders in early to growth-stage companies, with a passion
-                    for life sciences and maker tools.{" "}
+                    I partner with executive leaders in early to growth-stage
+                    companies supporting them with 0-1 products and brands, with
+                    a passion for life sciences and maker tools.{" "}
                   </p>
 
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
