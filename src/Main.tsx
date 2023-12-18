@@ -11,7 +11,7 @@ export default function Main() {
                 </h1>
                 <div className="text-gray-500 dark:text-gray-400">
                   <p className="text-2xl font-light leading-normal text-[#804D4D] mb-4">
-                    Product Designer specializing in 0-1 products and brands.
+                    Product Designer
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
                     I have a history of partnering with and supporting executive
