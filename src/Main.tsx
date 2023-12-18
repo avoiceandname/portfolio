@@ -261,7 +261,7 @@ export default function Main() {
                 <h4 className="mb-2 font-bold uppercase text-white lg:text-xs text-[12px]">
                   Essay
                 </h4>
-                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#C9BA32] lg:text-8xl md:text-1xl ">
+                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#C9BA32] lg:text-7xl md:text-1xl ">
                   <span>Resilience, discomfort, & advocacy</span>
                 </h1>
                 <h3 className="mb-0 pt-4 md:mb-0 text-md font-light text-white lg:text-3xl ">
@@ -352,7 +352,7 @@ export default function Main() {
                 <h4 className="mb-2 font-bold uppercase text-black lg:text-xs text-[12px]">
                   Case Study
                 </h4>
-                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#AF4801] lg:text-8xl md:text-1xl ">
+                <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#AF4801] lg:text-7xl md:text-1xl ">
                   <span>Crafting a developer-native brand</span>
                 </h1>
                 <h3 className="mb-10 pt-4 md:mb-10 text-md text-black lg:text-2xl lg:font-light ">
