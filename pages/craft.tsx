@@ -221,9 +221,6 @@ export default function Contact() {
                   pursuit that's validated by real people and data, and driven
                   by the resilience we all share.
                 </p>
-                <p className="text-left font-bold leading-relaxed xl:w-3/4 lg:w-3/4 lg:text-l md:text-md">
-                  Find moments to add googly eyes.
-                </p>
               </span>
             </div>
           </div>
