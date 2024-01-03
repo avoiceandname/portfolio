@@ -59,7 +59,7 @@ export default function Main() {
                           Matterport
                         </h3>
                         <p className="text-[#B85959] text-xs font-medium">
-                          2023-current
+                          2023-Current
                         </p>
                       </div>
 
