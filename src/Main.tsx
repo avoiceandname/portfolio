@@ -259,7 +259,7 @@ export default function Main() {
             <div className="py-4 pl-4 md:py-8 md:pl-8 lg:py-32 lg:pl-16 lg:pr-16 mx-auto text-left ">
               <div className="my-8 mx-4 md:mx-4 lg:mx-0 lg:my-auto flex flex-col">
                 <h4 className="mb-2 font-bold uppercase text-white lg:text-xs text-[12px]">
-                  Essay
+                  Writing
                 </h4>
                 <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#C9BA32] lg:text-7xl md:text-1xl ">
                   <span>Resilience, discomfort, & advocacy</span>
@@ -353,7 +353,7 @@ export default function Main() {
                   Case Study
                 </h4>
                 <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#AF4801] lg:text-7xl md:text-1xl ">
-                  <span>Crafting a developer-native brand</span>
+                  <span>Product-led Branding</span>
                 </h1>
                 <h3 className="mb-10 pt-4 md:mb-10 text-md text-black lg:text-2xl lg:font-light ">
                   Created the brand, design system, and inaugural self-serve
