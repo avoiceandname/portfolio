@@ -14,9 +14,11 @@ export default function Main() {
                     Product Designer
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    I partner with executive leaders in early to growth-stage
-                    companies supporting them with 0-1 products and brands, with
-                    a passion for life sciences and maker tools.{" "}
+                    → Experienced Product Designer: 10+ years of diverse
+                    experience designing and shipping products for startups and
+                    Fortune-tier enterprises. Well versed in navigating
+                    ambiguity, fostering cross-functional collaboration, and
+                    delivering impactful and streamlined customer experiences.{" "}
                   </p>
 
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
