@@ -14,24 +14,23 @@ export default function Main() {
                     Product Designer
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    → Experienced Product Designer: 10+ years of diverse
-                    experience designing and shipping products for startups and
-                    Fortune-tier enterprises. Well versed in navigating
-                    ambiguity, fostering cross-functional collaboration, and
-                    delivering impactful and streamlined customer experiences.{" "}
+                    10+ years of diverse experience designing and shipping
+                    products for startups and Fortune-tier enterprises. Well
+                    versed in navigating ambiguity, fostering cross-functional
+                    collaboration, and delivering impactful and streamlined
+                    customer experiences.{" "}
                   </p>
 
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    Experienced in navigating ambiguity, I’m skilled at both
-                    autonomous work and bridging cross-functional teams,
-                    ensuring the delivery of customer experiences that are
-                    impactful and memorable. Grounded in research, prototyping,
-                    and relationship building, I specialize in designing and
-                    streamlining complex systems that emphasize simplicity.
+                    Grounded in research, prototyping, and relationship
+                    building, with expertise in designing and streamlining
+                    complex systems while prioritizing simplicity.
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    Advocate for embracing unexpected joy. Champion of tiny
-                    moments that make a big impact.{" "}
+                    Always looking for ways to embrace unexpected joy and
+                    championing the importance of tiny moments that
+                    significantly impact every product surface and system I
+                    touch.{" "}
                   </p>
                   <div className="mx-auto text-black mt-4">
                     <a
