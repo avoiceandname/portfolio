@@ -27,10 +27,9 @@ export default function Main() {
                     complex systems while prioritizing simplicity.
                   </p>
                   <p className="text-md font-normal leading-normal text-[#804D4D] mb-3">
-                    Always looking for ways to embrace unexpected joy and
-                    championing the importance of tiny moments that
-                    significantly impact every product surface and system I
-                    touch.{" "}
+                    Prioritizes designing and cultivating small, joyful moments
+                    within products and services, believing in their profound
+                    impact on the people who experience them.{" "}
                   </p>
                   <div className="mx-auto text-black mt-4">
                     <a
