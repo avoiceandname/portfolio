@@ -353,7 +353,7 @@ export default function Main() {
                   Case Study
                 </h4>
                 <h1 className="lg:mb-2 mb-0 text-5xl font-bold tracking-tight text-[#AF4801] lg:text-7xl md:text-1xl ">
-                  <span>Product-led Branding</span>
+                  <span>Care, Courage, & Craft</span>
                 </h1>
                 <h3 className="mb-10 pt-4 md:mb-10 text-md text-black lg:text-2xl lg:font-light ">
                   Created the brand, design system, and inaugural self-serve
