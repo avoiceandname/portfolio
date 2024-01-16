@@ -167,7 +167,7 @@ export default function Main() {
                 Case Study
               </h4>
               <h1 className="mb-8 md:mb-10 text-5xl font-bold text-black lg:text-7xl md:text-1xl ">
-                <span>Everything changes when fingers hit glass.</span>
+                <span>Everything changes when fingers hit glass</span>
               </h1>
               <h2 className="mb-8 md:mb-10 text-l text-black lg:text-2xl lg:font-light ">
                 Kinetic was a Techstars-backed prototyping platform that helped
