@@ -31,16 +31,16 @@ export default function Main() {
                     within products and services, believing in their profound
                     impact on the people who experience them.{" "}
                   </p>
-                  <div className="mx-auto text-black mt-4">
+                  <div className="mx-auto  mt-4">
                     <a
-                      className="flex items-center text-[#B85959] hover:text-[#217070]"
-                      href="http://cal.com/kat/30min"
+                      className="flex font-normal items-center text-[#217070] hover:text-[#195353]"
+                      href="http://cal.com/kat/intro"
                     >
                       {" "}
-                      Schedule a Portfolio Review
+                      Schedule an Intro
                     </a>{" "}
                     <a
-                      className="flex items-center text-[#B85959] hover:text-[#217070]"
+                      className="flex font-normal items-center text-[#217070] hover:text-[#195353]"
                       href="https://www.linkedin.com/in/millerkat/"
                     >
                       {" "}
@@ -481,7 +481,7 @@ export default function Main() {
             <p className="justify-center items-center flex">
               <a
                 className="hover:text-blue-500  ml-2"
-                href="https://cal.com/kat"
+                href="https://cal.com/kat/intro"
               >
                 cal.com/kat
               </a>
