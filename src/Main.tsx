@@ -37,7 +37,7 @@ export default function Main() {
                       href="http://cal.com/kat/30min"
                     >
                       {" "}
-                      Schedule a Meeting
+                      Schedule a Portfolio Review
                     </a>{" "}
                     <a
                       className="flex items-center text-[#B85959] hover:text-[#217070]"
