@@ -33,20 +33,14 @@ export default function Main() {
                   </p>
                   <div className="mx-auto  mt-4">
                     <a
-                      className="flex font-normal items-center text-[#217070] hover:text-[#195353]"
-                      href="http://cal.com/kat/intro"
-                    >
-                      {" "}
-                      Schedule a Quick Chat
-                    </a>{" "}
-                    <a
-                      className="flex font-normal items-center text-[#217070] hover:text-[#195353]"
+                      className="flex font-medium items-center text-[#217070] hover:text-[#195353]"
                       href="https://www.linkedin.com/in/millerkat/"
                     >
                       {" "}
-                      DM on LinkedIn
+                      Reach out on LinkedIn
                     </a>{" "}
                   </div>
+
                   <div className="mt-4 lg:mt-8">
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pt-8 md:pt-4 lg:pt-0">
                       <div className="h-full flex flex-col items-left text-left">
