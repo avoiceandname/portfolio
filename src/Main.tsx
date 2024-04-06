@@ -351,8 +351,8 @@ export default function Main() {
                 </h1>
                 <h3 className="mb-10 pt-4 md:mb-10 text-md text-black lg:text-2xl lg:font-light ">
                   Created the brand, design system, and inaugural self-serve
-                  product for a developer-centric startup backed by YC and NEO,
-                  setting the stage for its distinctive market presence and user
+                  product for a developer-centric startup backed by YC, setting
+                  the stage for its distinctive market presence and user
                   experience.
                 </h3>
                 <span className="text-black ">
