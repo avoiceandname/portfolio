@@ -91,7 +91,7 @@ export default function Main() {
                           Kinetic (Stand In)
                         </h3>
                         <p className="text-xs text-[#B85959] font-medium">
-                          2013-2025
+                          2013-2015
                         </p>
                       </div>
                     </div>
