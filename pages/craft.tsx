@@ -263,7 +263,7 @@ export default function Contact() {
             <p className="justify-center items-center flex">
               <a
                 className="hover:text-blue-500  ml-2"
-                href="https://cal.com/kat/intro"
+                href="https://cal.com/kat/30min"
               >
                 cal.com/kat
               </a>
